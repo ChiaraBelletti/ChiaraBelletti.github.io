@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+
+ <!--CSS Header-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type = text/css>
+body {width: 70%;
+    background-color: white;
+    margin: auto;}
+nav {border-bottom: 1px solid   #0077b3;
+}
+ul.tight {margin-top: 4px;
+        padding-left: 54px;
+        }
+nav ul, footer ul {
+    font-family:'Poppins';
+    padding: 0px;
+    list-style: none;
+    font-weight: normal;
+    color: black;
+    margin: 4px;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: clamp(15px,10%,80px);
+}
+nav ul li a {
+    font-weight: 500;
+    font-size: large;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+footer ul {
+    float: right;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a {
+    text-decoration: none;
+    color: #0077b3;
+    font-weight: heavy;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 2.5em;
+    font-family: 'Poppins';
+    font-variant: titling-caps;
+    text-align: center;
+    font-weight: 200;
+}
+h2 {
+    font-size: 1.75em;
+    font-family:'Poppins';
+    font-weight: 500;
+    margin-bottom: 0px;
+        text-align: center;
+}
+p {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-family:'Poppins';
+    font-weight: normal;
+    color: black;
+}
+footer {
+        margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid  #0077b3;
+    font-size: .8em;
+}
+ul {
+    line-height: 1.2em;
+    font-family: 'Poppins';
+    }
+ul li {
+        padding-bottom: .2em;
+        font-family: 'Poppins';
+        }
+p.tight {
+        padding-left: 36px;
+    text-indent: -36px;
+        margin-bottom: 4px;
+    }
+img.myface {
+    width: 70%;
+    height:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+.collapsible {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  margin: 0px;
+  border: none;
+  text-align: left;
+  display: inline-block;
+  outline: none;
+  font-family: 'Poppins';
+        }
+.collapsible:after {
+        font-size: 1.2em;
+        content:' \25BC';
+    }
+.active, .collapsible:hover {
+  background-color: white;
+  color: #0077b3;
+        }
+.content {
+  padding: 0px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+}
+@media (min-width:600px) {
+div.lcolumn {
+    float: left;
+    width: 40%;
+}      
+div.rcolumn {
+    float: right;
+    width: 60%;
+    vertical-align: center;
+        }
+        }
+@media (max-width:600px) {
+div.lcolumn {
+        width: 100%;
+        margin: auto ;
+        float: none;
+}
+div.rcolumn {
+        width: 100%;
+        margin: auto;
+        float: none;
+}
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Noto+Sans:wght@200..900">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Chiara Belletti</title>
+ 
+</head>
+ 
+<body>
+ 
+ <h1> Chiara Belletti </h1>
+ 
+ <nav>
+ <ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/research">Research</a></li>
+  <li><a href="/curriculum.html">CV</a></li>
+</ul>
+</nav>
+ 
+<div class="container">
+ <div class="row">
+  <div class ="lcolumn">
+   <img class="myface" src="Photo2.jpeg" alt="Chiara Belletti">
+  </div>
+  <div class="rcolumn">
+   <p> I am PhD student at <a href="https://www.telecom-paris.fr" target="_blank" rel="noopener noreferrer">Télécom Paris</a>, <a href="https://www.ip-paris.fr/" target="_blank" rel="noopener noreferrer">IP Paris</a> supervised by <a href="https://www.ulrich-laitenberger.com/" target="_blank" rel="noopener noreferrer">Ulrich Laitenberger</a>, <a href="https://michelangelorossi.github.io/" target="_blank" rel="noopener noreferrer">Michelangelo Rossi</a> and <a href="https://www.linkedin.com/in/paola-tubaro-62585924/?originalSubdomain=fr" target="_blank" rel="noopener noreferrer">Paola Tubaro</a>. </p>
+   <p> I am an empirical economist studying digital markets. My research focuses on:</p>
+    <ul>
+     <li>Reputation Systems on Digital Platforms</li>
+     <li>Crowd-working and the Online Labor Market</li>
+    </ul>
+   <p> I am also attached to the <a href="https://innovation-regulation.telecom-paris.fr/team-and-contributors/?lang=e"  target="_blank" rel="noopener noreferrer">Innovation and Regulation Chair</a> and to the interdisciplinary research group on Platform Labor <a href="https://diplab.eu/about/" target="_blank" rel="noopener noreferrer">DiPLab</a>.</p>
+   <p>Here is my:</p>
+    <a href="https://twitter.com/ChiaraBellets" target="_blank" rel="noopener noreferrer">[Twitter]</a> <span>&#183;</span>
+    <a href="https://www.linkedin.com/in/chiarabellettits/" target="_blank" rel="noopener noreferrer">[LinkedIn]</a></p>
+ 
+</div>
+</div>                        
+</div>
+
+<footer>
+  <ul>
+    <li><a href="mailto:chiara.belletti@telecom-paris.fr">chiara.belletti@telecom-paris.fr</a></li>
+    <li><a href="mailto:chiarabellets@gmail.com">chiarabellets@gmail.com</a></li>  
+  </ul>
+</footer>
+ 
+</body>
+
+</html> 
