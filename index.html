@@ -145,17 +145,42 @@ div.rcolumn {
         float: none;
 }
 }
-    header {
-            background-color: #0077b3;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
+   /* Your existing CSS styles here */
 
-    header h1 {
-        margin: 0;
-       font-family: 'Cutive Mono', monospace; /* Use the Cutive Mono font for the header title */
-    }
+/* Header styles */
+header {
+    background-color: #0077b3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Cutive Mono', monospace; /* Use the Cutive Mono font for the header title */
+}
+
+/* Toggle mode button styles */
+#mode-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#mode-toggle.active .fa-moon {
+    display: none;
+}
+
+#mode-toggle.active .fa-sun {
+    display: inline-block;
+}
+
+#mode-toggle .fa-sun {
+    display: none;
+}
+
   
   :root {
     --background-color-light: white;
@@ -178,6 +203,7 @@ body.dark-mode {
 }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -190,11 +216,14 @@ body.dark-mode {
  
 <body>
 
-    <header>
-        <h1>Chiara Belletti</h1>
-         <button id="mode-toggle">Toggle Mode</button>
-    </header>
- 
+  <header>
+    <h1>Header Title</h1>
+    <button id="mode-toggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </button>
+</header>
+  
  <h1> Website in construction </h1>
  
  <nav>
@@ -239,6 +268,7 @@ body.dark-mode {
 
     modeToggle.addEventListener('click', () => {
         body.classList.toggle('dark-mode'); // Toggle the 'dark-mode' class on the body
+        modeToggle.classList.toggle('active'); // Toggle the 'active' class to change the icon
     });
 </script>
   
