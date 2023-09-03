@@ -273,11 +273,8 @@ nav ul li a {
     object-position: center; /* Center the image within the container */
     display: block;
 }
-  footer ul li {
-    display: inline;
-    margin-right: clamp(15px, 10%, 80px);
-    /* Remove the following line to get rid of the bottom border */
-    /* border-bottom: 1px solid #0077b3; */
+ footer ul li:last-child {
+    border-bottom: none; /* Remove the bottom border */
 }
 body.dark-mode #mode-toggle .fa-sun {
     color: white; /* Set the color to white in dark mode */
