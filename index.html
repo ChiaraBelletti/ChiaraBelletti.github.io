@@ -150,11 +150,15 @@ div.rcolumn {
 /* Your existing CSS styles here */
 
 /* Header styles */
+/* Your existing CSS styles here */
+
+/* Header styles */
 header {
     background-color: #0077b3;
     color: white;
     text-align: center;
     padding: 10px 0;
+    position: relative; /* Add this */
 }
 
 header h1 {
@@ -164,19 +168,24 @@ header h1 {
 
 /* Toggle mode button styles */
 #mode-toggle {
+    position: absolute; /* Add this */
+    top: 50%; /* Vertically center the button */
+    right: 10px; /* Adjust as needed for spacing */
+    display: flex; /* Display the button and icons in a row */
+    align-items: center; /* Vertically center the icons */
+}
+
+#mode-toggle button {
     background: none;
     border: none;
     color: white;
     font-size: 24px;
     cursor: pointer;
-    position: relative;
 }
 
 #mode-toggle i {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    font-size: 24px;
+    margin-left: 10px; /* Add space between the button and icons */
 }
 
 #mode-toggle.active .fa-moon {
@@ -190,6 +199,7 @@ header h1 {
 #mode-toggle .fa-sun {
     display: none;
 }
+
 
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -206,13 +216,13 @@ header h1 {
  
 <body>
 
-  <header>
-    <h1>Chiara Belletti</h1>
-    <button id="mode-toggle">
-        Toggle Mode
+ <header>
+    <h1>Chiara Belletti/h1>
+    <div id="mode-toggle">
+        <button>Toggle Mode</button>
         <i class="fas fa-moon"></i>
         <i class="fas fa-sun"></i>
-    </button>
+    </div>
 </header>
 
   
