@@ -155,6 +155,25 @@ div.rcolumn {
         header h1 {
             margin: 0;
         }
+  :root {
+    --background-color-light: white;
+    --background-color-dark: #333;
+    --text-color-light: black;
+    --text-color-dark: white;
+}
+
+body {
+    width: 70%;
+    background-color: var(--background-color-light); /* Default to light mode */
+    color: var(--text-color-light); /* Default to light mode */
+    margin: auto;
+}
+
+/* Add dark mode styles */
+body.dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -170,6 +189,7 @@ div.rcolumn {
 
     <header>
         <h1>Chiara Belletti</h1>
+         <button id="mode-toggle">Toggle Mode</button>
     </header>
  
  <h1> Website in construction </h1>
