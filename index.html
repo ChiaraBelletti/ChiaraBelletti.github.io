@@ -223,14 +223,13 @@ body.dark-mode header {
 body {
     width: 70%;
     background-color: white; /* Default background color for day mode */
-    color: black; /* Default text color for day mode */
+    color: var(--text-color-light); /* Use the CSS variable for text color */
     margin: auto;
 }
 
-/* Add dark mode styles for the entire webpage */
 body.dark-mode {
     background-color: #34282C; /* Background color for dark mode */
-    color: white; /* Text color for dark mode */
+    color: var(--text-color-dark); /* Text color for dark mode */
 }
   /* Additional style for specific elements in dark mode */
 body.dark-mode p {
@@ -248,7 +247,7 @@ body.dark-mode p {
 /* Style for the Font Awesome icons */
 .profile-links a {
     display: inline-block;
-    margin: 0 10px; /* Add spacing between the icons */
+    margin: 0 6px 0 0; /* Adjust the left margin to move the icons to the left */
     font-size: 24px; /* Adjust the icon size as needed */
     color: #0077b3; /* Change the icon color */
     text-decoration: none;
@@ -327,6 +326,10 @@ body.dark-mode #mode-toggle .fa-sun {
     --subheading-color-light: black; /* Default color in light mode */
     --subheading-color-dark: white; /* Color in dark mode */
 }
+  :root {
+    --text-color-light: black; /* Default text color in light mode */
+    --text-color-dark: yellow; /* Text color in dark mode */
+}
 
 .subheading {
     font-size: smaller;
@@ -334,6 +337,7 @@ body.dark-mode #mode-toggle .fa-sun {
     font-family: 'Poppins', sans-serif;
     color: var(--subheading-color-light); /* Use the light color by default */
 }
+  
 
 /* Rest of your existing CSS styles */
 
@@ -422,14 +426,11 @@ modeToggle.addEventListener('click', () => {
     modeToggle.classList.toggle('active'); // Toggle the 'active' class to change the icon
 
     if (body.classList.contains('dark-mode')) {
-        document.documentElement.style.setProperty('--subheading-color-light', 'white');
-        document.documentElement.style.setProperty('--telecom-paris-color-light', 'white');
+        document.documentElement.style.setProperty('--text-color-light', 'white');
     } else {
-        document.documentElement.style.setProperty('--subheading-color-light', 'black');
-        document.documentElement.style.setProperty('--telecom-paris-color-light', '#0077b3'); // Default color in light mode
+        document.documentElement.style.setProperty('--text-color-light', 'black');
     }
 });
-  
 </script>
 
   
