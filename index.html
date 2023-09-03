@@ -154,11 +154,11 @@ div.rcolumn {
 
 /* Header styles */
 header {
-    background-color: #0077b3;
-    color: white;
+    background-color: white; /* Default to white in day mode */
+    color: black; /* Default to black in day mode */
     text-align: center;
     padding: 10px 0;
-    position: relative; /* Add this */
+    position: relative;
 }
 
 header h1 {
@@ -199,7 +199,10 @@ header h1 {
 #mode-toggle .fa-sun {
     display: none;
 }
-
+body.dark-mode header {
+    background-color: black; /* Change to black in dark mode */
+    color: white; /* Change to white in dark mode */
+}
 
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
