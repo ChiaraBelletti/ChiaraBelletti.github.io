@@ -147,6 +147,8 @@ div.rcolumn {
 }
    /* Your existing CSS styles here */
 
+/* Your existing CSS styles here */
+
 /* Header styles */
 header {
     background-color: #0077b3;
@@ -167,6 +169,14 @@ header h1 {
     color: white;
     font-size: 24px;
     cursor: pointer;
+    position: relative;
+}
+
+#mode-toggle i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #mode-toggle.active .fa-moon {
@@ -181,26 +191,6 @@ header h1 {
     display: none;
 }
 
-  
-  :root {
-    --background-color-light: white;
-    --background-color-dark: #333;
-    --text-color-light: black;
-    --text-color-dark: white;
-}
-
-body {
-    width: 70%;
-    background-color: var(--background-color-light); /* Default to light mode */
-    color: var(--text-color-light); /* Default to light mode */
-    margin: auto;
-}
-
-/* Add dark mode styles */
-body.dark-mode {
-    background-color: var(--background-color-dark);
-    color: var(--text-color-dark);
-}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -219,10 +209,12 @@ body.dark-mode {
   <header>
     <h1>Chiara Belletti</h1>
     <button id="mode-toggle">
+        Toggle Mode
         <i class="fas fa-moon"></i>
         <i class="fas fa-sun"></i>
     </button>
 </header>
+
   
 <!-- <h1> Website in construction </h1> -->
  
