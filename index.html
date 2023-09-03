@@ -222,18 +222,20 @@ nav ul li a {
     font-family: 'Cutive Mono', monospace; /* Use the Cutive Mono font for the navigation links */
     text-decoration: none;
 }
-  /* Style for the circular profile picture */
+/* Style for the circular profile picture */
 .profile-picture {
-    width: 200px; /* Adjust the width and height as needed */
-    height: 200px;
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
     overflow: hidden;
     border-radius: 50%; /* Create a circular shape */
     margin: 0 auto; /* Center the image horizontally */
 }
 
 .profile-picture img {
-    width: 100%; /* Ensure the image fills the circular container */
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the entire image is visible */
+    object-position: center; /* Center the image within the container */
     display: block;
 }
 
