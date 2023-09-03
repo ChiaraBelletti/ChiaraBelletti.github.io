@@ -202,11 +202,16 @@ header h1 {
     display: none;
 }
 
-/* Style the subheading */
+/:root {
+    --subheading-color-light: black; /* Default color in light mode */
+    --subheading-color-dark: white; /* Color in dark mode */
+}
+
 .subheading {
-    font-size: smaller; /* Make the text smaller */
+    font-size: smaller;
     margin: 0;
-    font-family: 'Poppins', sans-serif; /* You can change the font family if needed */
+    font-family: 'Poppins', sans-serif;
+    color: var(--subheading-color-light); /* Use the light color by default */
 }
 body.dark-mode header {
     background-color: #34282C; /* Change to black in dark mode */
@@ -227,10 +232,7 @@ body.dark-mode {
     background-color: #34282C; /* Background color for dark mode */
     color: white; /* Text color for dark mode */
 }
-  header.dark-mode {
-    background-color: #34282C; /* Light gray background color for the header in dark mode */
-    color: white; /* Text color for the header in dark mode */
-}
+
 
 /* Rest of your existing CSS styles */
 
@@ -367,29 +369,21 @@ body.dark-mode #mode-toggle .fa-sun {
   </ul>
 </footer>
 
-<script>
-    const modeToggle = document.getElementById('mode-toggle');
-    const body = document.body;
+const modeToggle = document.getElementById('mode-toggle');
+const body = document.body;
 
-    modeToggle.addEventListener('click', () => {
-        body.classList.toggle('dark-mode'); // Toggle the 'dark-mode' class on the body
+modeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
 
-        // Check if the dark mode is enabled
-        const isDarkMode = body.classList.contains('dark-mode');
-
-        // Update the local storage to remember the user's preference
-        localStorage.setItem('darkMode', isDarkMode);
-
-        modeToggle.classList.toggle('active'); // Toggle the 'active' class to change the icon
-    });
-
-    // Check the user's theme preference from local storage and apply it
-    const savedDarkMode = localStorage.getItem('darkMode');
-    if (savedDarkMode === 'true') {
-        body.classList.add('dark-mode');
-        modeToggle.classList.add('active');
+    if (body.classList.contains('dark-mode')) {
+        document.documentElement.style.setProperty('--subheading-color-light', 'white');
+    } else {
+        document.documentElement.style.setProperty('--subheading-color-light', 'black');
     }
-</script>
+
+    modeToggle.classList.toggle('active');
+});
+
 
   
 </body>
