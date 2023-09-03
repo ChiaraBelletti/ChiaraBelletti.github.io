@@ -229,7 +229,16 @@ body.dark-mode {
     <li><a href="mailto:chiarabellets@gmail.com">chiarabellets@gmail.com</a></li>  
   </ul>
 </footer>
- 
+
+  <script>
+    const modeToggle = document.getElementById('mode-toggle');
+    const body = document.body;
+
+    modeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode'); // Toggle the 'dark-mode' class on the body
+    });
+</script>
+  
 </body>
 
 </html> 
