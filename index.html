@@ -164,7 +164,26 @@ img.myface {
     border-radius: 50%; /* This part creates the rounded shape */
 }
 </style>
+ :root {
+    --background-color: white; /* Light mode background color */
+    --text-color: black;       /* Light mode text color */
+}
 
+body.dark-mode {
+    --background-color: black; /* Dark mode background color */
+    --text-color: white;       /* Dark mode text color */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+ 
+
+ <header>
+        <h1>Your Website</h1>
+        <button id="mode-toggle">Toggle Dark Mode</button>
+    </header>
 
 <title>Chiara Belletti</title>
  
