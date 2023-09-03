@@ -222,6 +222,21 @@ nav ul li a {
     font-family: 'Cutive Mono', monospace; /* Use the Cutive Mono font for the navigation links */
     text-decoration: none;
 }
+  /* Style for the circular profile picture */
+.profile-picture {
+    width: 200px; /* Adjust the width and height as needed */
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%; /* Create a circular shape */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.profile-picture img {
+    width: 100%; /* Ensure the image fills the circular container */
+    height: auto;
+    display: block;
+}
+
 
 /* Rest of your existing CSS styles */
 
@@ -264,7 +279,9 @@ nav ul li a {
 <div class="container">
  <div class="row">
   <div class ="lcolumn">
-   <img class="myface" src="IMG_8878.JPG" alt="Chiara Belletti">
+  <div class="profile-picture">
+   <img src="IMG_8878.JPG" alt="Chiara Belletti">
+</div>
   </div>
   <div class="rcolumn">
    <p> I am PhD student at <a href="https://www.telecom-paris.fr" target="_blank" rel="noopener noreferrer">Télécom Paris</a>, <a href="https://www.ip-paris.fr/" target="_blank" rel="noopener noreferrer">IP Paris</a> supervised by <a href="https://www.ulrich-laitenberger.com/" target="_blank" rel="noopener noreferrer">Ulrich Laitenberger</a>, <a href="https://michelangelorossi.github.io/" target="_blank" rel="noopener noreferrer">Michelangelo Rossi</a> and <a href="https://www.linkedin.com/in/paola-tubaro-62585924/?originalSubdomain=fr" target="_blank" rel="noopener noreferrer">Paola Tubaro</a>. </p>
