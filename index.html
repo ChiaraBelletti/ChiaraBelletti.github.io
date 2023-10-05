@@ -27,7 +27,9 @@ html, body {
     body.dark-mode .bullet-points li {
     color: white; /* Change the bullet point text color to white in dark mode */
 }
-  
+  :root {
+    --download-container-bg: #F4F4F4; /* Light gray background */
+}
   body.dark-mode a {
     color: #73CFE1; /* Change the hyperlink text color to blue in dark mode */
 }   
@@ -381,7 +383,7 @@ body.dark-mode #mode-toggle .fa-sun {
 }
 body.dark-mode .download-container {
     border-color: #73CFE1;
-    background-color: #F4F4F4; /* Change the border color to blue in dark mode */
+    background-color: var(--download-container-bg); /* Change the border color to blue in dark mode */
 }
 You can integrate this CSS rule into your existing styles like this:
 
