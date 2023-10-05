@@ -1,312 +1,65 @@
 <!DOCTYPE html>
-
 <html>
 
-<!--CSS Header-->
 <head>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style type = text/css>
+    <style type="text/css">
+        /* Reset some default styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set global styles */
         body {
-             width: 95%;
-             background-color: white;
-             margin: auto;
-             font-family: 'Poppins', sans-serif;
-        }
-            
-        nav {
-            border-bottom: 1px solid  #900C3F;
-        }
-        ul.tight {margin-top: 4px;
-                padding-left: 54px;
-                }
-            
-        nav ul, footer ul {
-            font-family:'Poppins';
-            padding: 0px;
-            list-style: none;
-            font-weight: normal;
+            font-family: 'Poppins', sans-serif; /* Set the default font family */
+            width: 95%;
+            background-color: white;
+            margin: auto;
             color: black;
-            margin: 4px;
-        }
-            
-        nav ul li, footer ul li {
-            display: inline;
-            margin-right: clamp(15px,10%,80px);
-        }
-            
-        nav ul li a {
-            font-weight: 500;
-            font-size: large;
-            font-family: 'Poppins';
-            text-decoration: none;
-        }
-            
-        footer ul {
-            float: right;
-        }
-            
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-            
-        a {
-            text-decoration: none;
-            color: #900C3F;
-            font-weight: heavy;
-        }
-            
-        h1 {
-            font-size: 2.5em;
-            font-family: 'Poppins';
-            font-variant: titling-caps;
-            text-align: center;
-            font-weight: 200;
-        }
-        h2 {
-            font-size: 1.75em;
-            font-family:'Poppins';
-            font-weight: 500;
-            margin-bottom: 0px;
-                text-align: center;
-        }
-        p {
-            font-size: 1em;
             line-height: 1.2em;
-            font-family:'Poppins';
-            font-weight: normal;
-            color: black;
         }
-        footer {
-                margin-top: 10px;
-            margin-bottom: 10px;
-            font-size: .8em;
-        }
-            
-        ul {
-            line-height: 1.2em;
-            font-family: 'Poppins';
-            }
-            
-        ul li {
-                padding-bottom: .2em;
-                font-family: 'Poppins';
-                }
-            
-        p.tight {
-                padding-left: 36px;
-            text-indent: -36px;
-                margin-bottom: 4px;
-            }
-            
-        img.myface {
-            width: 70%;
-            height:auto;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            }
-            
-        .collapsible {
-          color: black;
-          background-color: white;
-          cursor: pointer;
-          margin: 0px;
-          border: none;
-          text-align: left;
-          display: inline-block;
-          outline: none;
-          font-family: 'Poppins';
-                }
-            
-        .collapsible:after {
-                font-size: 1.2em;
-                content:' \25BC';
-            }
-            
-        .active, .collapsible:hover {
-          background-color: white;
-          color: #0077b3;
-                }
-            
-        .content {
-          padding: 0px;
-          display: none;
-          overflow: hidden;
-          background-color: white;
-        }
-            
-        @media (min-width:600px) {
-        div.lcolumn {
-            float: left;
-            width: 40%;
-        }      
-            
-        div.rcolumn {
-            float: right;
-            width: 60%;
-            vertical-align: center;
-                }
-            
-        @media (max-width:600px) {
-        div.lcolumn {
-                width: 100%;
-                margin: auto ;
-                float: none;
-        }
-            
-        div.rcolumn {
-                width: 100%;
-                margin: auto;
-                float: none;
-        }
-        
+
+        /* Header styles */
         header {
-            background-color: var(--header-bg-color-light); 
-            color: var(--header-text-color-light); 
+            background-color: var(--header-bg-color-light);
+            color: var(--header-text-color-light);
             text-align: center;
             padding: 10px 0;
             position: relative;
+            font-family: 'Cutive Mono', monospace;
         }
-        
+
         header h1 {
-            margin: 0;
-            font-family: 'Poppins', monospace; 
-            color: var(--header-text-color-light); 
+            font-size: 2.5em;
         }
-        
+
         header .subheading {
+            font-size: smaller;
             color: var(--telecom-paris-color-light);
         }
-       
-        #mode-toggle {
-            position: absolute;
-            top: 50%; 
-            right: 10px; 
-            display: flex;
-            align-items: center; 
-        }
-            
-        #mode-toggle button {
-            background: none;
-            border: none;
-            color: white;
-            font-size: 24px;
-            cursor: pointer;
-        }
-        
-        #mode-toggle i {
-            font-size: 24px;
-            margin-left: 10px; 
-        }
-        
-        #mode-toggle.active .fa-moon {
-            display: none;
-        }
-        
-        #mode-toggle.active .fa-sun {
-            display: inline-block;
-        }
-        
-        #mode-toggle .fa-sun {
-            display: none;
-        }
-        
-        .subheading {
-            font-size: smaller; 
-            margin: 0;
-            font-family: 'Cultive Mono', sans-serif;
-            
-        }
-        body.dark-mode header {
-            background-color: black; 
-            color: white; 
-        }
-            
-        body {
-            width: 70%;
-            background-color: white; 
-            color: var(--text-color-light); 
-            margin: auto;
-        }
-        
+
+        /* Dark mode styles */
         body.dark-mode {
-            background-color: gray; 
-            color: var(--text-color-dark); 
-        }
-       
-        body.dark-mode p {
-            color: white; 
-        }
-            
-          header.dark-mode {
-            background-color: black; 
-            color: white; 
-        }
-            
-        .profile-links {
-            text-align: left;
-            margin-top: 20px 2px; 
-            padding-left: 0; 
-        }
-      
-        .profile-links a {
-            display: inline-block;
-            margin: 0 12px 0 0; 
-            font-size: 24px; 
-            color: #900C3F;
-            text-decoration: none;
-        }
-        
-        .profile-links a:hover {
-            color: #900C3F; 
-        }
-        
-        nav ul li a {
-            font-weight: 500;
-            font-size: large;
-            font-family: 'Cutive Mono', monospace; 
-            text-decoration: none;
-        }
-    
-        .profile-picture {
-            width: 220px;
-            height: 220px; 
-            overflow: hidden;
-            border-radius: 50%; 
-            margin: 1cm 0.7cm 0 0; 
-        }
-        
-        .profile-picture img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; 
-            object-position: center;
-            display: block;
-        }
-            
-         footer ul li:last-child {
-            border-bottom: none; 
-        }
-        body.dark-mode #mode-toggle .fa-sun {
+            background-color: black;
             color: white;
-            background: none;
         }
-            
+
+        header.dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        /* Mode toggle button styles */
         #mode-toggle {
             position: absolute;
             top: 50%;
             right: 10px;
             display: flex;
             align-items: center;
-            background-color: transparent; 
+            background-color: transparent;
         }
-        
-        /* Style the sun and moon icons */
+
         #mode-toggle button {
             background: none;
             border: none;
@@ -314,141 +67,153 @@
             font-size: 24px;
             cursor: pointer;
         }
-        
+
         #mode-toggle i {
             font-size: 24px;
             margin-left: 10px;
         }
-          .additional-text {
-            font-size: smaller; 
-            margin: 0;
+
+        #mode-toggle.active .fa-moon {
+            display: none;
         }
-            
-          :root {
-            --subheading-color-light: black;
-            --subheading-color-dark: white;
+
+        #mode-toggle.active .fa-sun {
+            display: inline-block;
         }
-            
-          :root {
-            --text-color-light: black; 
-            --text-color-dark: #900C3F; 
-             --link-color-dark: #900C3F; 
+
+        #mode-toggle .fa-sun {
+            display: none;
         }
-        
-        .subheading {
-            font-size: smaller;
-            margin: 0;
-            font-family: 'Cultive Mono', sans-serif;
-            color: var(--subheading-color-light); /* Use the light color by default */
+
+        /* Navigation styles */
+        nav {
+            border-bottom: 1px solid #900C3F;
+        }
+
+        ul {
+            font-family: 'Cutive Mono', monospace;
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            display: inline;
+            margin-right: clamp(15px, 10%, 80px);
+        }
+
+        ul li a {
+            font-weight: 500;
+            font-size: large;
+            text-decoration: none;
+        }
+
+        /* Container styles */
+        .container {
+            width: 100%;
+        }
+
+        /* Profile picture styles */
+        .profile-picture {
+            width: 220px;
+            height: 220px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin: 1cm auto 0;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+
+        /* Main content styles */
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Simplified social links */
+        .profile-links a {
+            font-size: 24px;
+            color: #900C3F;
+            text-decoration: none;
+            margin: 0 12px 0 0;
+        }
+
+        .profile-links a:hover {
+            color: #900C3F;
+        }
+
+        /* Footer styles */
+        footer {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: .8em;
+        }
+
+        footer ul li:last-child {
+            border-bottom: none;
+        }
+
+        /* Custom classes */
+        .text-center {
+            text-align: center;
         }
     </style>
-
-    <!--Download from links-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Include your CSS links for Font Awesome and other stylesheets here -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Noto+Sans:wght@200..900">
-
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chiara Belletti</title>
- 
 </head>
 
-<!--HTML code-->    
 <body>
-
     <header>
-    
         <h1>Chiara Belletti</h1>
-        
         <div id="mode-toggle">
             <button></button>
             <i class="fas fa-moon"></i>
             <i class="fas fa-sun"></i>
         </div>
-        
         <p class="subheading">PhD student in Economics</p>
-        
-        <p class="additional-text">Télécom Paris</p> <!-- New paragraph with additional text -->
-    
+        <p class="additional-text">Télécom Paris</p>
     </header>
 
     <nav>
-        
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/Research">Research</a></li>
-        <li><a href="/curriculum.html">CV</a></li>
-     </ul>
-        
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/Research">Research</a></li>
+            <li><a href="/curriculum.html">CV</a></li>
+        </ul>
     </nav>
- 
-<div class="container">
-    <div class="row">
-        <div class="lcolumn">
-            <div class="profile-container">
-                <div class="profile-picture">
-                    <img src="Capture-modified.PNG" alt="Chiara Belletti">
-                </div>
-                <div class="profile-links">
-                    <a href="https://twitter.com/YourTwitterUsername" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/YourLinkedInProfile" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/YourLinkedInProfile" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://mastodon.social/your-mastodon-profile" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-mastodon"></i>
-                    </a>
-                </div>
-            </div>
+
+    <div class="container">
+        <div class="profile-picture">
+            <img src="Capture-modified.PNG" alt="Chiara Belletti">
         </div>
-        <div class="rcolumn">
-          <p> Website under construction </p>
-          <p> I am PhD student at <a href="https://www.telecom-paris.fr" target="_blank" rel="noopener noreferrer">Télécom Paris</a>, <a href="https://www.ip-paris.fr/" target="_blank" rel="noopener noreferrer">IP Paris</a> supervised by <a href="https://www.ulrich-laitenberger.com/" target="_blank" rel="noopener noreferrer">Ulrich Laitenberger</a>, <a href="https://michelangelorossi.github.io/" target="_blank" rel="noopener noreferrer">Michelangelo Rossi</a> and <a href="https://www.linkedin.com/in/paola-tubaro-62585924/?originalSubdomain=fr" target="_blank" rel="noopener noreferrer">Paola Tubaro</a>. </p>
-          <p> I am an empirical economist studying digital markets. My research focuses on:</p>
-          <ul>
-          <li>Reputation Systems on Digital Platforms</li>
-          <li>Crowd-working and the Online Labor Market</li>
-          </ul>
-          <p> I am also attached to the <a href="https://innovation-regulation.telecom-paris.fr/team-and-contributors/?lang=e"  target="_blank" rel="noopener noreferrer">Innovation and Regulation Chair</a> and to the interdisciplinary research group on Platform Labor <a href="https://diplab.eu/about/" target="_blank" rel="noopener noreferrer">DiPLab</a>.</p>
+        <div class="main-content">
+            <p>Website under construction</p>
+            <p>I am PhD student at <a href="https://www.telecom-paris.fr" target="_blank" rel="noopener noreferrer">Télécom
+                    Paris</a>, <a href="https://www.ip-paris.fr/" target="_blank" rel="noopener noreferrer">IP Paris</a>
+                supervised by <a href="https://www.ulrich-laitenberger.com/" target="_blank" rel="noopener noreferrer">Ulrich
+                    Laitenberger</a>, <a href="https://michelangelorossi.github.io/" target="_blank"
+                    rel="noopener noreferrer">Michelangelo Rossi</a> and <a
+                    href="https://www.linkedin.com/in/paola-tubaro-62585924/?originalSubdomain=fr" target="_blank"
+                    rel="noopener noreferrer">Paola Tubaro</a>.</p>
+            <p>I am an empirical economist studying digital markets. My research focuses on:</p>
+            <ul>
+                <li>Reputation Systems on Digital Platforms</li>
+                <li>Crowd-working and the Online Labor Market</li>
+            </ul>
+            <p>I am also attached to the <a href="https://innovation-regulation.telecom-paris.fr/team-and-contributors/?lang=e"
+                    target="_blank" rel="noopener noreferrer">Innovation and Regulation Chair</a> and to the
+                interdisciplinary research group on Platform Labor <a href="https://diplab.eu/about/" target="_blank"
+                    rel="noopener noreferrer">DiPLab</a>.</p>
         </div>
     </div>
-</div>
 
-<footer>
-    <div class="footer-content">
-        <div class="email-addresses">
-            <p><a href="mailto:chiara.belletti@telecom-paris.fr" style="color: red;">chiara.belletti@telecom-paris.fr</a></p>
-            <p><a href="mailto:chiarabellets@gmail.com" style="color: red;">chiarabellets@gmail.com</a></p>
-        </div>
-    </div>
-</footer>
-
-<!-- JavaScript here --> 
-<script>
-const modeToggle = document.getElementById('mode-toggle');
-const body = document.body;
-
-modeToggle.addEventListener('click', () => {
-    body.classList.toggle('dark-mode'); // Toggle the 'dark-mode' class on the body
-    modeToggle.classList.toggle('active'); // Toggle the 'active' class to change the icon
-
-    if (body.classList.contains('dark-mode')) {
-        document.documentElement.style.setProperty('--text-color-light', 'white');
-    } else {
-        document.documentElement.style.setProperty('--text-color-light', 'black');
-    }
-});
-</script>
-
-  
-</body>
-
-</html> 
+    <footer class="text
