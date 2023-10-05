@@ -52,7 +52,20 @@ a {
     color: #900C3F;
     font-weight: heavy;
 }
+.bullet-points {
+    font-family: 'Poppins'; /* Use the desired font */
+    list-style-type: disc; /* Set bullet style to disc */
+    padding-left: 20px; /* Adjust the padding as needed */
+}
 
+/* Style for the bullet point items */
+.bullet-points li {
+    font-family: 'Poppins'; /* Use the desired font */
+    font-weight: normal; /* Use the desired font weight */
+    color: black; /* Use the desired text color */
+    margin-bottom: 4px; /* Add spacing between items */
+}
+    
 h1 {
     font-size: 2.5em;
     font-family: 'Poppins';
@@ -415,8 +428,10 @@ body.dark-mode #mode-toggle .fa-sun {
           <p> Welcome to my website! </p>
        </div>
           <p> I am PhD student at <a href="https://www.telecom-paris.fr" target="_blank" rel="noopener noreferrer">Télécom Paris</a>, <a href="https://www.ip-paris.fr/" target="_blank" rel="noopener noreferrer">IP Paris</a>. I am interested in the economics of digital markets and platforms, with a particular focus on: 
-          <li>Reputation systems</li>
-          <li>Online labor markets</li>
+       <ul class="bullet-points">
+        <li>Reputation systems</li>
+        <li>Online labor markets</li>
+    </ul>
           <p> I am also attached to the <a href="https://innovation-regulation.telecom-paris.fr/team-and-contributors/?lang=e"  target="_blank" rel="noopener noreferrer">Innovation and Regulation Chair</a> and to the interdisciplinary research group on Platform Labor <a href="https://diplab.eu/about/" target="_blank" rel="noopener noreferrer">DiPLab</a>.</p>
         </div>
     </div>
