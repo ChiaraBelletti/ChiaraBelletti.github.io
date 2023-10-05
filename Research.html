@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
  
+<!--CSS Header-->
 <head>
 
- <!--CSS Header-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type = text/css>
-body {width: 70%;
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+body {width: 100%;
     background-color: white;
     margin: auto;}
-nav {border-bottom: 1px solid   #0077b3;
+nav {border-bottom: 1px solid  #900C3F;
 }
 ul.tight {margin-top: 4px;
         padding-left: 54px;
@@ -42,12 +49,10 @@ footer ul {
 }
 a {
     text-decoration: none;
-    color: #0077b3;
+    color: #900C3F;
     font-weight: heavy;
 }
-a:hover {
-    text-decoration: underline;
-}
+
 h1 {
     font-size: 2.5em;
     font-family: 'Poppins';
@@ -70,10 +75,8 @@ p {
     color: black;
 }
 footer {
-        margin-top: 10px;
-    margin-bottom: 10px;
-    border-top: 2px solid  #0077b3;
-    font-size: .8em;
+    margin-left: 0;
+    margin-right: 0;
 }
 ul {
     line-height: 1.2em;
@@ -116,6 +119,10 @@ img.myface {
   background-color: white;
   color: #0077b3;
         }
+.shadowed-section {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Adjust the alpha value (0.5) for a darker shadow */
+}
+
 .content {
   padding: 0px;
   display: none;
@@ -145,14 +152,191 @@ div.rcolumn {
         float: none;
 }
 }
+
+header {
+    background-color: var(--header-bg-color-light); /* Use a CSS variable for background color */
+    color: var(--header-text-color-light); /* Use a CSS variable for text color */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Poppins', monospace; /* Use the Cutive Mono font for the header title */
+    color: var(--header-text-color-light); /* Use a CSS variable for text color */
+}
+
+/* Toggle mode button styles */
+#mode-toggle {
+    position: absolute; /* Add this */
+    top: 50%; /* Vertically center the button */
+    right: 10px; /* Adjust as needed for spacing */
+    display: flex; /* Display the button and icons in a row */
+    align-items: center; /* Vertically center the icons */
+}
+#mode-toggle button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#mode-toggle i {
+    font-size: 24px;
+    margin-left: 10px; /* Add space between the button and icons */
+}
+
+#mode-toggle.active .fa-moon {
+    display: none;
+}
+
+#mode-toggle.active .fa-sun {
+    display: inline-block;
+}
+
+#mode-toggle .fa-sun {
+    display: none;
+}
+
+/* Style the subheading */
+.subheading {
+    font-size: smaller; /* Make the text smaller */
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* You can change the font family if needed */
+}
+body.dark-mode header {
+    background-color: black; /* Change to black in dark mode */
+    color: white; /* Change to white in dark mode */
+}
+  /* Your existing CSS styles here */
+
+/* Set default theme for the body */
+body {
+    width: 70%;
+    background-color: white; /* Default background color for day mode */
+    color: var(--text-color-light); /* Use the CSS variable for text color */
+    margin: auto;
+}
+
+body.dark-mode {
+    background-color: black; /* Background color for dark mode */
+    color: var(--text-color-dark); /* Text color for dark mode */
+}
+  /* Additional style for specific elements in dark mode */
+body.dark-mode p {
+    color: white; /* Change text color to white in dark mode */
+}
+  header.dark-mode {
+    background-color: black; /* Light gray background color for the header in dark mode */
+    color: white; /* Text color for the header in dark mode */
+}
+.profile-links {
+    text-align: left; /* Align icons to the left */
+    margin-top: 0.5cm; /* Adjust the margin as needed */
+    margin-left: -50px;
+}
+
+/* Style for the Font Awesome icons */
+.profile-links a {
+    display: inline-block;
+    margin: 0 12px ; /* Adjust the left margin to move the icons 1cm to the left */
+    font-size: 24px; /* Adjust the icon size as needed */
+    color: #900C3F; /* Change the icon color */
+    text-decoration: none;
+}
+
+.profile-links a:hover {
+    color: #900C3F; /* Change the icon color on hover */
+}
+
+nav ul li a {
+    font-weight: 500;
+    font-size: large;
+    font-family: 'Poppins', monospace; /* Use the Cutive Mono font for the navigation links */
+    text-decoration: none;
+}
+/* Style for the circular profile picture */
+.profile-picture {
+    width: 220px; /* Adjust the width as needed */
+    height: 220px; /* Adjust the height as needed */
+    overflow: hidden;
+    border-radius: 50%; /* Create a circular shape */
+    margin: 1cm 0.7cm 0 0; /* 1cm top margin, 0.5cm left margin, 0 right margin, 0 bottom margin */
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the entire image is visible */
+    object-position: center; /* Center the image within the container */
+    display: block;
+}
+ footer ul li:last-child {
+    border-bottom: none; /* Remove the bottom border */
+}
+body.dark-mode #mode-toggle .fa-sun {
+    color: white; /* Set the color to white in dark mode */
+    background: none; /* Remove the white background box */
+}
+#mode-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    background-color: transparent; /* Set the background to transparent */
+}
+
+/* Style the sun and moon icons */
+#mode-toggle button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#mode-toggle i {
+    font-size: 24px;
+    margin-left: 10px;
+}
+  .additional-text {
+    font-size: smaller; /* Same font size as subheading */
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Same font family as subheading */
+}
+  :root {
+    --subheading-color-light: black; /* Default color in light mode */
+    --subheading-color-dark: white; /* Color in dark mode */
+}
+  :root {
+    --text-color-light: black; /* Default text color in light mode */
+    --text-color-dark: #900C3F; /* Text color in dark mode */
+     --link-color-dark: #900C3F; /* Link color in dark mode */
+}
+
+.subheading {
+    font-size: smaller;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: var(--subheading-color-light); /* Use the light color by default */
+}
+  
+
+/* Rest of your existing CSS styles */
+
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Noto+Sans:wght@200..900">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <title>Chiara Belletti</title>
  
 </head>
