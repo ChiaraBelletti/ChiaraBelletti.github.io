@@ -497,14 +497,17 @@ body.dark-mode .download-container {
 </div>
 </div>                        
 
-<footer>
-    <div class="footer-content">
-        <div class="email-addresses">
-           <p><a href="mailto:chiara.belletti@telecom-paris.fr">chiara.belletti@telecom-paris.fr</a></p>
-<p><a href="mailto:chiarabellets@gmail.com">chiarabellets@gmail.com</a></p>
-        </div>
-    </div>
-</footer>
+<script>
+  // Function to toggle dark mode
+  function toggleDarkMode() {
+    const body = document.body;
+    body.classList.toggle('dark-mode'); // Add or remove 'dark-mode' class
+  }
+
+  // Add a click event listener to your dark mode button
+  const darkModeButton = document.querySelector('#mode-toggle button');
+  darkModeButton.addEventListener('click', toggleDarkMode);
+</script>
  
 </body>
 
