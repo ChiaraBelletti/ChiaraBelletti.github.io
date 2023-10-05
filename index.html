@@ -114,8 +114,9 @@ img.myface {
   color: #0077b3;
         }
 .shadowed-section {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adjust the shadow properties as needed */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Adjust the alpha value (0.5) for a darker shadow */
 }
+
 .content {
   padding: 0px;
   display: none;
@@ -340,6 +341,7 @@ body.dark-mode #mode-toggle .fa-sun {
  
 <body>
 
+<section class="shadowed-section">
 <header>
     <h1>Chiara Belletti</h1>
     <div id="mode-toggle">
@@ -359,14 +361,13 @@ body.dark-mode #mode-toggle .fa-sun {
   <li><a href="/curriculum.html">CV</a></li>
 </ul>
 </nav>
+</section>
  
 <div class="container">
     <div class="row">
         <div class="lcolumn">
             <!-- Your profile picture and links here -->
-            <section class="shadowed-section">
             <div class="profile-container">
-            </section>
                 <div class="profile-picture">
                     <img src="Capture-modified.PNG" alt="Chiara Belletti">
                 </div>
