@@ -13,6 +13,30 @@ html, body {
     padding: 0;
     overflow: hidden; /* Prevent scrolling */
 }
+      /* Style for the download button and its container */
+        .download-container {
+            display: inline-block;
+            padding: 10px;
+            background-color: #F4F4F4; /* Light gray background */
+            border: 2px solid #900C3F; /* Red border */
+            border-radius: 20px; /* Rounded corners */
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: transparent; /* Transparent background */
+            color: #900C3F; /* Red text color */
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Hover effect for the download button */
+        .download-button:hover {
+            background-color: #900C3F; /* Red background on hover */
+            color: white; /* White text color on hover */
+        }
     /* Style for the download button */
         .download-button {
             display: inline-block;
@@ -452,9 +476,13 @@ body.dark-mode #mode-toggle .fa-sun {
     </ul>
           <p> I am part of the <a href="https://innovation-regulation.telecom-paris.fr/team-and-contributors/?lang=e"  target="_blank" rel="noopener noreferrer">Innovation and Regulation Chair</a> team and the interdisciplinary research group on Platform Labor <a href="https://diplab.eu/about/" target="_blank" rel="noopener noreferrer">DiPLab</a>.</p>
         </div>
+         <div class="download-container">
+        <!-- Button with hyperlink to download CV -->
+        <a href="your_cv_file.pdf" class="download-button" download>Download CV</a>
+    </div>
     </div>
 </div>
-      <a href="your_cv_file.pdf" class="download-button" download>Download CV</a>
+      
 
 <footer>
     <div class="footer-content">
