@@ -5,7 +5,9 @@
 <head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 <style type = text/css>
+    
 html, body {
     height: 100%;
     width: 100%;
@@ -13,11 +15,62 @@ html, body {
     padding: 0;
     overflow: hidden; /* Prevent scrolling */
 }
+    body.dark-mode a[href^="mailto:"] {
+    color: #73CFE1; /* Change the email link color to blue in dark mode */
+}
+    body.dark-mode p a {
+    color: #73CFE1; /* Change the text color to blue in dark mode */
+}
+    body.dark-mode footer a {
+    color: #73CFE1; /* Change the email address text color to blue in dark mode */
+}
+    body.dark-mode .bullet-points li {
+    color: white; /* Change the bullet point text color to white in dark mode */
+}
+  
+  body.dark-mode a {
+    color: #73CFE1; /* Change the hyperlink text color to blue in dark mode */
+}   
+    body.dark-mode p.subheading {
+    color: #73CFE1; /* Change the text color to blue in dark mode */
+}
+ /* Style for the download button and its container */
+        .download-container {
+            display: inline-block;
+            padding: 10px;
+            background-color: #F4F4F4; /* Light gray background */
+            border: 2px solid #900C3F; /* Red border */
+            border-radius: 20px; /* Rounded corners */
+        }
+    body.dark-mode nav ul li {
+    border-bottom: 1px solid #73CFE1; /* Change the border color to #900C3F in dark mode */
+}
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: transparent; /* Transparent background */
+            color: #900C3F; /* Red text color */
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Hover effect for the download button */
+        .download-button:hover {
+            background-color: #900C3F; /* Red background on hover */
+            color: white; /* White text color on hover */
+        }
+  
 body {width: 100%;
     background-color: white;
     margin: auto;}
+    
 nav {border-bottom: 1px solid  #900C3F;
 }
+ body.dark-mode nav  {
+    border-bottom: 1px solid  #73CFE1; /* Change the border color to #900C3F in dark mode */
+}
+    
 ul.tight {margin-top: 4px;
         padding-left: 54px;
         }
@@ -52,11 +105,10 @@ a {
     color: #900C3F;
     font-weight: heavy;
 }
-.bullet-points li {
+.bullet-points {
     font-family: 'Poppins'; /* Use the desired font */
-    font-weight: normal; /* Use the desired font weight */
-    color: black; /* Use the desired text color */
-    margin-bottom: 10px; /* Increase the margin-bottom to create more space between items */
+    list-style-type: disc; /* Set bullet style to disc */
+    padding-left: 20px; /* Adjust the padding as needed */
 }
 
 /* Style for the bullet point items */
@@ -238,8 +290,8 @@ header h1 {
     font-family: 'Poppins', sans-serif; /* You can change the font family if needed */
 }
 body.dark-mode header {
-    background-color: black; /* Change to black in dark mode */
-    color: white; /* Change to white in dark mode */
+    background-color: #443E40; /* Change to black in dark mode */
+    color: #73CFE1; /* Change to white in dark mode */
 }
   /* Your existing CSS styles here */
 
@@ -250,17 +302,24 @@ body {
     color: var(--text-color-light); /* Use the CSS variable for text color */
     margin: auto;
 }
+    body.dark-mode .profile-links a {
+    color: white; /* Change the icon color to white in dark mode */
+    text-decoration: none; /* Remove underline from links */
+}
 
 body.dark-mode {
-    background-color: black; /* Background color for dark mode */
+    background-color: #443E40; /* Background color for dark mode */
     color: var(--text-color-dark); /* Text color for dark mode */
 }
   /* Additional style for specific elements in dark mode */
 body.dark-mode p {
     color: white; /* Change text color to white in dark mode */
 }
+    body.dark-mode u {
+    color: white; /* Change text color to white in dark mode */
+}
   header.dark-mode {
-    background-color: black; /* Light gray background color for the header in dark mode */
+    background-color: #443E40; /* Light gray background color for the header in dark mode */
     color: white; /* Text color for the header in dark mode */
 }
 .profile-links {
@@ -274,7 +333,7 @@ body.dark-mode p {
     display: inline-block;
     margin: 0 12px ; /* Adjust the left margin to move the icons 1cm to the left */
     font-size: 24px; /* Adjust the icon size as needed */
-    color: #900C3F; /* Change the icon color */
+    color: #443E40; /* Change the icon color */
     text-decoration: none;
 }
 
@@ -307,6 +366,7 @@ nav ul li a {
  footer ul li:last-child {
     border-bottom: none; /* Remove the bottom border */
 }
+    
 body.dark-mode #mode-toggle .fa-sun {
     color: white; /* Set the color to white in dark mode */
     background: none; /* Remove the white background box */
@@ -318,6 +378,35 @@ body.dark-mode #mode-toggle .fa-sun {
     display: flex;
     align-items: center;
     background-color: transparent; /* Set the background to transparent */
+}
+body.dark-mode .download-container {
+    border-color: #73CFE1;
+    background-color: #F4F4F4; /* Change the border color to blue in dark mode */
+}
+You can integrate this CSS rule into your existing styles like this:
+
+css
+Copy code
+/* Additional style for specific elements in dark mode */
+body.dark-mode p {
+    color: white; /* Change text color to white in dark mode */
+}
+
+body.dark-mode a {
+    color: #73CFE1; /* Change hyperlink text color to blue in dark mode */
+}
+
+
+body.dark-mode footer a {
+    color: #73CFE1; /* Change the email address text color to blue in dark mode */
+}
+
+body.dark-mode .bullet-points li {
+    color: white; /* Change the bullet point text color to white in dark mode */
+}
+
+body.dark-mode .download-container {
+    border-color: #73CFE1; /* Change the border color of the download link box to blue in dark mode */
 }
 
 /* Style the sun and moon icons */
@@ -344,8 +433,8 @@ body.dark-mode #mode-toggle .fa-sun {
 }
   :root {
     --text-color-light: black; /* Default text color in light mode */
-    --text-color-dark: #900C3F; /* Text color in dark mode */
-     --link-color-dark: #900C3F; /* Link color in dark mode */
+    --text-color-dark: #73CFE1; /* Text color in dark mode */
+     --link-color-dark: #73CFE1; /* Link color in dark mode */
 }
 
 .subheading {
