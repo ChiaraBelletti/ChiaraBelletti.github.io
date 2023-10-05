@@ -497,16 +497,21 @@ body.dark-mode .download-container {
 </div>
 </div>                        
 
+    <!-- JavaScript here --> 
 <script>
-  // Function to toggle dark mode
-  function toggleDarkMode() {
-    const body = document.body;
-    body.classList.toggle('dark-mode'); // Add or remove 'dark-mode' class
-  }
+const modeToggle = document.getElementById('mode-toggle');
+const body = document.body;
 
-  // Add a click event listener to your dark mode button
-  const darkModeButton = document.querySelector('#mode-toggle button');
-  darkModeButton.addEventListener('click', toggleDarkMode);
+modeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode'); // Toggle the 'dark-mode' class on the body
+    modeToggle.classList.toggle('active'); // Toggle the 'active' class to change the icon
+
+    if (body.classList.contains('dark-mode')) {
+        document.documentElement.style.setProperty('--text-color-light', 'white');
+    } else {
+        document.documentElement.style.setProperty('--text-color-light', 'black');
+    }
+});
 </script>
  
 </body>
