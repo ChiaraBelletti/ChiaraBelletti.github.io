@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
- 
+
 <!--CSS Header-->
 <head>
 
@@ -52,7 +52,20 @@ a {
     color: #900C3F;
     font-weight: heavy;
 }
+.bullet-points {
+    font-family: 'Poppins'; /* Use the desired font */
+    list-style-type: disc; /* Set bullet style to disc */
+    padding-left: 20px; /* Adjust the padding as needed */
+}
 
+/* Style for the bullet point items */
+.bullet-points li {
+    font-family: 'Poppins'; /* Use the desired font */
+    font-weight: normal; /* Use the desired font weight */
+    color: black; /* Use the desired text color */
+    margin-bottom: 4px; /* Add spacing between items */
+}
+    
 h1 {
     font-size: 2.5em;
     font-family: 'Poppins';
@@ -146,11 +159,28 @@ div.lcolumn {
         margin: auto ;
         float: none;
 }
+
+    
 div.rcolumn {
         width: 100%;
         margin: auto;
         float: none;
 }
+}
+ .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0;
+}
+    
+   .rcolumn {
+    float: right;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 header {
@@ -338,7 +368,7 @@ body.dark-mode #mode-toggle .fa-sun {
   href="https://fonts.googleapis.com/css?family=Noto+Sans:wght@200..900">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chiara Belletti</title>
- 
+  
 </head>
  
 <body>
