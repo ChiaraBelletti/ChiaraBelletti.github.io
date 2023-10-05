@@ -346,6 +346,7 @@ nav ul li a {
  footer ul li:last-child {
     border-bottom: none; /* Remove the bottom border */
 }
+    
 body.dark-mode #mode-toggle .fa-sun {
     color: white; /* Set the color to white in dark mode */
     background: none; /* Remove the white background box */
@@ -357,6 +358,37 @@ body.dark-mode #mode-toggle .fa-sun {
     display: flex;
     align-items: center;
     background-color: transparent; /* Set the background to transparent */
+}
+body.dark-mode .download-container {
+    border-color: blue; /* Change the border color to blue in dark mode */
+}
+You can integrate this CSS rule into your existing styles like this:
+
+css
+Copy code
+/* Additional style for specific elements in dark mode */
+body.dark-mode p {
+    color: white; /* Change text color to white in dark mode */
+}
+
+body.dark-mode a {
+    color: blue; /* Change hyperlink text color to blue in dark mode */
+}
+
+body.dark-mode nav ul li {
+    border-bottom: 1px solid blue; /* Change the border color to blue in dark mode */
+}
+
+body.dark-mode footer a {
+    color: blue; /* Change the email address text color to blue in dark mode */
+}
+
+body.dark-mode .bullet-points li {
+    color: white; /* Change the bullet point text color to white in dark mode */
+}
+
+body.dark-mode .download-container {
+    border-color: blue; /* Change the border color of the download link box to blue in dark mode */
 }
 
 /* Style the sun and moon icons */
