@@ -3,11 +3,21 @@
 
 <!--CSS Header-->
 <head>
-
+ 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 <style type = text/css>
-    
+
+ .container {
+    overflow: auto; /* or overflow: scroll; */
+    /* Other styles for the container */
+}
+
+  body {
+            padding-bottom: 500px; /* Add extra padding at the bottom of the body */
+        }
+
+ 
 html, body {
     height: 100%;
     width: 100%;
@@ -19,7 +29,7 @@ html, body {
     color: #73CFE1; /* Change the email link color to blue in dark mode */
 }
     body.dark-mode p a {
-    color: black; /* Change the text color to blue in dark mode */
+    color: #73CFE1; /* Change the text color to blue in dark mode */
 }
     body.dark-mode footer a {
     color: #73CFE1; /* Change the email address text color to blue in dark mode */
@@ -42,9 +52,7 @@ html, body {
             border: 2px solid #900C3F; /* Red border */
             border-radius: 20px; /* Rounded corners */
         }
-    body.dark-mode nav ul li {
-    border-bottom: 1px solid #73CFE1; /* Change the border color to #900C3F in dark mode */
-}
+
         .download-button {
             display: inline-block;
             padding: 10px 20px;
@@ -60,6 +68,8 @@ html, body {
             background-color: #900C3F; /* Red background on hover */
             color: white; /* White text color on hover */
         }
+    
+ 
   
 body {width: 100%;
     background-color: white;
@@ -67,8 +77,8 @@ body {width: 100%;
     
 nav {border-bottom: 1px solid  #900C3F;
 }
- body.dark-mode nav  {
-    border-bottom: 1px solid  #73CFE1; /* Change the border color to #900C3F in dark mode */
+
+body.dark-mode nav {border-bottom: 1px solid  #73CFE1;
 }
     
 ul.tight {margin-top: 4px;
@@ -379,14 +389,29 @@ body.dark-mode #mode-toggle .fa-sun {
     align-items: center;
     background-color: transparent; /* Set the background to transparent */
 }
-body.dark-mode .download-container {
-    border-color: #73CFE1;
-    background-color: #F4F4F4; /* Change the border color to blue in dark mode */
-}
-You can integrate this CSS rule into your existing styles like this:
+     body.dark-mode .download-container {
+            display: inline-block;
+            padding: 10px;
+            background-color: #F4F4F4; /* Light gray background */
+            border: 2px solid #73CFE1; /* Red border */
+            border-radius: 20px; /* Rounded corners */
+        }
 
-css
-Copy code
+     body.dark-mode .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: transparent; /* Transparent background */
+            color: #73CFE1; /* Red text color */
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Hover effect for the download button */
+        body.dark-mode .download-button:hover {
+            background-color: #73CFE1; /* Red background on hover */
+            color: white; /* White text color on hover */
+        }
 /* Additional style for specific elements in dark mode */
 body.dark-mode p {
     color: white; /* Change text color to white in dark mode */
@@ -405,9 +430,6 @@ body.dark-mode .bullet-points li {
     color: white; /* Change the bullet point text color to white in dark mode */
 }
 
-body.dark-mode .download-container {
-    border-color: #73CFE1; /* Change the border color of the download link box to blue in dark mode */
-}
 
 /* Style the sun and moon icons */
 #mode-toggle button {
