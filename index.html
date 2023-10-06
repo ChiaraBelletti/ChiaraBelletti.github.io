@@ -205,13 +205,25 @@ img.myface {
   overflow: hidden;
   background-color: white;
 }
-
-@media (max-width:768px) {
+@media (min-width:600px) {
+div.lcolumn {
+    float: left;
+    width: 40%;
+}      
+div.rcolumn {
+    float: right;
+    width: 60%;
+    vertical-align: center;
+        }
+        }
+@media (max-width:600px) {
 div.lcolumn {
         width: 100%;
         margin: auto ;
         float: none;
 }
+
+    
 div.rcolumn {
         width: 100%;
         margin: auto;
