@@ -460,8 +460,6 @@ body.dark-mode .download-container {
 </head>
  
 <body>
-     <input type="checkbox" id="darkModeToggle">
-    <label for="darkModeToggle">Dark Mode</label>
 
 <section class="shadowed-section">
 <header>
@@ -544,38 +542,21 @@ body.dark-mode .download-container {
 
 <!-- JavaScript here --> 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    // Check if the user's preference for dark mode is stored in local storage
-    const isDarkMode = localStorage.getItem("darkMode");
+const modeToggle = document.getElementById('mode-toggle');
+const body = document.body;
 
-    // If the preference is "true" or null (not set), enable dark mode
-    if (isDarkMode === "true" || isDarkMode === null) {
-        document.body.classList.add("dark-mode");
-        // Set the checkbox to checked
-        document.getElementById("darkModeToggle").checked = true;
+modeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode'); // Toggle the 'dark-mode' class on the body
+    modeToggle.classList.toggle('active'); // Toggle the 'active' class to change the icon
+
+    if (body.classList.contains('dark-mode')) {
+        document.documentElement.style.setProperty('--text-color-light', 'white');
     } else {
-        // If the preference is "false", disable dark mode
-        document.body.classList.remove("dark-mode");
-        // Set the checkbox to unchecked
-        document.getElementById("darkModeToggle").checked = false;
+        document.documentElement.style.setProperty('--text-color-light', 'black');
     }
-
-    // Add an event listener to the dark mode toggle
-    document.getElementById("darkModeToggle").addEventListener("change", function () {
-        if (this.checked) {
-            // User enabled dark mode
-            document.body.classList.add("dark-mode");
-            localStorage.setItem("darkMode", "true");
-        } else {
-            // User disabled dark mode
-            document.body.classList.remove("dark-mode");
-            localStorage.setItem("darkMode", "false");
-        }
-    });
 });
 </script>
 
-    
   
 </body>
 
