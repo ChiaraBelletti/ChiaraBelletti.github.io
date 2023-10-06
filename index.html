@@ -59,10 +59,7 @@ html, body {
             color: white; /* White text color on hover */
         }
     
-       body.dark-mode   .download-button:hover {
-            background-color: #73CFE1; /* Red background on hover */
-            color: white; /* White text color on hover */
-        }  
+ 
   
 body {width: 100%;
     background-color: white;
@@ -382,13 +379,27 @@ body.dark-mode #mode-toggle .fa-sun {
     align-items: center;
     background-color: transparent; /* Set the background to transparent */
 }
-body.dark-mode .download-container {
-    border-color: #73CFE1;
-    background-color: #F4F4F4; /* Change the border color to blue in dark mode */
-}
-    
- body.dark-mode.download-button:hover {
-            background-color:  #73CFE1; /* Red background on hover */
+     body.dark-mode .download-container {
+            display: inline-block;
+            padding: 10px;
+            background-color: #F4F4F4; /* Light gray background */
+            border: 2px solid #73CFE1; /* Red border */
+            border-radius: 20px; /* Rounded corners */
+        }
+
+     body.dark-mode .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: transparent; /* Transparent background */
+            color: #73CFE1; /* Red text color */
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Hover effect for the download button */
+        body.dark-mode .download-button:hover {
+            background-color: #73CFE1; /* Red background on hover */
             color: white; /* White text color on hover */
         }
 /* Additional style for specific elements in dark mode */
@@ -409,9 +420,6 @@ body.dark-mode .bullet-points li {
     color: white; /* Change the bullet point text color to white in dark mode */
 }
 
-body.dark-mode .download-container {
-    border-color: #73CFE1; /* Change the border color of the download link box to blue in dark mode */
-}
 
 /* Style the sun and moon icons */
 #mode-toggle button {
