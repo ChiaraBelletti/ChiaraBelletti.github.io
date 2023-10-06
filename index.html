@@ -381,10 +381,11 @@ body.dark-mode .download-container {
     border-color: #73CFE1;
     background-color: #F4F4F4; /* Change the border color to blue in dark mode */
 }
-You can integrate this CSS rule into your existing styles like this:
-
-css
-Copy code
+    
+ body.dark-mode.download-button:hover {
+            background-color:  #73CFE1; /* Red background on hover */
+            color: white; /* White text color on hover */
+        }
 /* Additional style for specific elements in dark mode */
 body.dark-mode p {
     color: white; /* Change text color to white in dark mode */
