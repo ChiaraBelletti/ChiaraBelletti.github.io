@@ -3,21 +3,14 @@
 
 <!--CSS Header-->
 <head>
- 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-<style type = text/css>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        /* Your existing styles here */
 
- .container {
-    overflow: auto; /* or overflow: scroll; */
-    /* Other styles for the container */
-}
-
-  body {
-            padding-bottom: 0;
-   margin: 0;/* Add extra padding at the bottom of the body */
+        .container {
+            overflow: auto;
+            /* Remove the fixed height for scrolling */
         }
-
  
 html, body {
     height: 100%;
@@ -69,8 +62,6 @@ html, body {
             background-color: #900C3F; /* Red background on hover */
             color: white; /* White text color on hover */
         }
-    
- 
   
 body {width: 100%;
     background-color: white;
@@ -455,19 +446,17 @@ body.dark-mode .bullet-points li {
     color: var(--subheading-color-light); /* Use the light color by default */
 }
   
-
-/* Rest of your existing CSS styles */
-
 </style>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Noto+Sans:wght@200..900">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:wght@200..900">
+    <style>
+     
 <title>Chiara Belletti</title>
   
 </head>
@@ -544,21 +533,21 @@ body.dark-mode .bullet-points li {
 </div>
                         
     <!-- JavaScript here --> 
-<script>
-const modeToggle = document.getElementById('mode-toggle');
-const body = document.body;
+    <script>
+        const modeToggle = document.getElementById('mode-toggle');
+        const body = document.body;
 
-modeToggle.addEventListener('click', () => {
-    body.classList.toggle('dark-mode'); // Toggle the 'dark-mode' class on the body
-    modeToggle.classList.toggle('active'); // Toggle the 'active' class to change the icon
+        modeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            modeToggle.classList.toggle('active');
 
-    if (body.classList.contains('dark-mode')) {
-        document.documentElement.style.setProperty('--text-color-light', 'white');
-    } else {
-        document.documentElement.style.setProperty('--text-color-light', 'black');
-    }
-});
-</script>
+            if (body.classList.contains('dark-mode')) {
+                document.documentElement.style.setProperty('--text-color-light', 'white');
+            } else {
+                document.documentElement.style.setProperty('--text-color-light', 'black');
+            }
+        });
+    </script>
 
     <div style="height: 500px;"></div>
  
