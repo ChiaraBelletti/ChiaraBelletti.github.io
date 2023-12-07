@@ -618,6 +618,46 @@ modeToggle.addEventListener('click', () => {
     }
 });
 
+ document.addEventListener("DOMContentLoaded", function () {
+    const modeToggle = document.getElementById('mode-toggle');
+    const body = document.body;
+
+    // Function to enable dark mode
+    function enableDarkMode() {
+        body.classList.add("dark-mode");
+        localStorage.setItem("darkMode", "true");
+    }
+
+    // Function to disable dark mode
+    function disableDarkMode() {
+        body.classList.remove("dark-mode");
+        localStorage.setItem("darkMode", "false");
+    }
+
+    // Toggle dark mode on button click
+    modeToggle.addEventListener('click', () => {
+        if (body.classList.contains('dark-mode')) {
+            disableDarkMode();
+        } else {
+            enableDarkMode();
+        }
+    });
+
+    // Check if the user's preference for dark mode is stored in local storage
+    const isDarkMode = localStorage.getItem("darkMode");
+
+    // Check for the mode query parameter in the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const modeParam = urlParams.get("mode");
+
+    // Apply dark mode based on the mode query parameter or stored preference
+    if (modeParam === "dark" || (modeParam === null && isDarkMode === "true")) {
+        enableDarkMode();
+    } else {
+        disableDarkMode();
+    }
+});
+
 </script>
 
    <div style="height: 500px;"></div>
