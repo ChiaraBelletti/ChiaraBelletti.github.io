@@ -618,31 +618,6 @@ modeToggle.addEventListener('click', () => {
     }
 });
 
- document.addEventListener("DOMContentLoaded", function () {
-    const modeToggle = document.getElementById('mode-toggle');
-    const body = document.body;
-
-    // Function to enable dark mode
-    function enableDarkMode() {
-        body.classList.add("dark-mode");
-        localStorage.setItem("darkMode", "true");
-    }
-
-    // Function to disable dark mode
-    function disableDarkMode() {
-        body.classList.remove("dark-mode");
-        localStorage.setItem("darkMode", "false");
-    }
-
-    // Toggle dark mode on button click
-    modeToggle.addEventListener('click', () => {
-        if (body.classList.contains('dark-mode')) {
-            disableDarkMode();
-        } else {
-            enableDarkMode();
-        }
-    });
-  
 </script>
 
    <div style="height: 500px;"></div>
