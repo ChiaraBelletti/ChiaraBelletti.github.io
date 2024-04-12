@@ -1,42 +1,52 @@
 <!DOCTYPE html>
-<html>
-<title>Chiara Belletti</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<html lang="en">
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Your custom CSS file -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .w3-bar {
+            width: 100%;
+        }
+        /* Add any additional styles here */
+    </style>
+</head>
 <body>
 
-<style>
-body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Segoe UI", Arial, sans-serif
-}
-</style>
-
-
-
-<nav>
-<style>
-nav {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  position: fixed;
-}
-</style>
-
-
-<div class="w3-bar w3-light-grey">
- <a href="#" class="w3-bar-item w3-button w3-mobile w3-white">CHIARA BELLETTI</a>
-  <a href="#home" class="w3-bar-item w3-button w3-mobile">Home</a>
-  <div class="w3-dropdown-hover w3-mobile">
-  <button class="w3-button">Research <i class="fa fa-caret-down"></i></button>
-  <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
-    <a href="#research" class="w3-bar-item w3-button w3-mobile">Work in Progress</a>
-    <a href="#" class="w3-bar-item w3-button w3-mobile">Other Research</a>
-    <a href="#" class="w3-bar-item w3-button w3-mobile"></a>
-  </div>
- </div>
- <a href="#research" class="w3-bar-item w3-button w3-mobile">Research</a>
- <a href="#" class="w3-bar-item w3-button w3-mobile">CV</a>
-</div>
+<nav class="navbar">
+    <div class="w3-bar w3-light-grey">
+        <a href="#" class="w3-bar-item w3-button w3-white">CHIARA BELLETTI</a>
+        <div class="w3-dropdown-hover w3-mobile">
+            <button class="w3-button">Research <i class="fa fa-caret-down"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+                <a href="#research" class="w3-bar-item w3-button w3-mobile">Work in Progress</a>
+                <a href="#reserach1" class="w3-bar-item w3-button w3-mobile">Other Research</a>
+            </div>
+        </div>
+        <a href="#cv" class="w3-bar-item w3-button w3-mobile">CV</a>
+                <a href="#teaching" class="w3-bar-item w3-button w3-mobile">Teaching</a>
+    </div>
 </nav>
+
+<!-- Your website content here -->
+<div style="margin-top: 60px;"> <!-- Adjust margin-top to avoid content overlapping with the fixed navbar -->
+    <!-- Add your website content here -->
+</div>
 
 <div class="w3-panel w3-white">
 </div>
@@ -46,107 +56,94 @@ nav {
 
    <div class="w3-container w3-center w3-white">
 
-   <img src="img_avatar3.png" alt="Avatar" style="width:50%" class="w3-circle">
-   <h5> Links to be added </h5>
+   <img src="ISTO_Oct_2023-3822.png" alt="Avatar" style="width:50%" class="w3-circle">
+
    </div>
  </div>
  <div class="w3-container w3-white w3-cell">
-  <p> Welcome to my website! </p>
-  <p> I am PhD student at <a href="https://www.telecom-paris.fr" target="_blank" rel="noopener noreferrer">Télécom Paris</a>, <a href="https://www.ip-paris.fr/" target="_blank" rel="noopener noreferrer">IP Paris</a>. I am interested in the economics of digital markets and platforms, with a particular focus on:
-    <ul class="bullet-points">
-     <li>Impefect information and reputation systems</li>
-     <li>Online labor markets</li>
-    </ul>
-   <p> I am part of the <a href="https://innovation-regulation.telecom-paris.fr/team-and-contributors/?lang=e"  target="_blank" rel="noopener noreferrer">Innovation and Regulation Chair</a> team and the interdisciplinary research group on Platform Labor <a href="https://diplab.eu/about/" target="_blank" rel="noopener noreferrer">DiPLab</a>.</p>
-  <button class="w3-btn w3-round-xxlarge w3-khaki">cv</button>
+  <p> Webpage in constrcution! </p>
  </div>
 </div>
 
 <hr>
 
 <div class="w3-container w3-center w3-white">
- <h2><a id="research">Research</h2>
+ <h2>Research</h2>
  <div class="w3-cell-row">
-  <div class="w3-container w3-white w3-cell" style="width:25%">
-    <p>Working Papers</p>
+  <div class="w3-container w3-white w3-cell w3-center" style="width:25%">
+    <p><a id="research"> Ongoing Projects </p>
   </div>
   <div class="w3-container w3-white w3-cell" >
    <div class="w3-container">
-   <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white">"CAree"</button>
+   <p> <b>"Reputation Concerns and the End-Game Effect: When Reputation
+Works and When it Does Not" </b> </p>
+<p> with Elizaveta Pronkina and Michelangelo Rossi <button class="w3-btn w3-round-xxlarge w3-khaki" onclick="document.getElementById('id01').style.display='block'">Abstract</button></p>
    <div id="id01" class="w3-modal">
     <div class="w3-modal-content">
       <div class="w3-container">
         <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-        <p>Some text. Some text. Some text.</p>
-        <p>Some text. Some text. Some text.</p>
+        <p>Do reputation incentives work when sellers are about to exit an online marketplace? Using data from Airbnb, this paper examines how end-of-game considerations affect effort decisions of sellers. We take advantage of a regulation on short-term rentals in the City of Los Angeles to identify hosts who anticipated their imminent exit from the platform due to non-compliance with new exogenous eligibility rules. We measure host's effort with listing's ratings in effort-related categories such as check-in, cleanliness and communication. Our empirical strategy is twofold. Firstly, we compare the changes in effort-related ratings to ratings on location for hosts who left the platform as a result of the regulation. Secondly, we conduct a difference-in-differences analysis, comparing the effort of host in the City of Los Angeles with that of hosts in neighboring cities.With both strategies, we document a statistically significant decrease in effort-related ratings in the last periods of the host's career. Our results suggest that end-of-game considerations affect the power of reputation systems as an incentive for sellers to exert effort.</p>
+        <p><b>Selected presentations:</b></p>
       </div>
     </div>
   </div>
 </div>
-   <p>Paper 2</p>
-  </div>
- </div>
-  <div class="w3-cell-row">
-  <div class="w3-container w3-white w3-cell" style="width:25%">
-    <p>Working Papers</p>
-  </div>
-  <div class="w3-container w3-white w3-cell" >
-   <div class="w3-container">
-   <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white">"CAree"</button>
+   <p><b>"Assessing Effort Provision and Monitoring on a Micro-Tasking Platform"</b></p>
+<p> with Louis Daniel Pape <button class="w3-btn w3-round-xxlarge w3-khaki" onclick="document.getElementById('id01').style.display='block'">Abstract</button></p>
    <div id="id01" class="w3-modal">
     <div class="w3-modal-content">
       <div class="w3-container">
         <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-        <p>Some text. Some text. Some text.</p>
-        <p>Some text. Some text. Some text.</p>
+        <p>In online micro-tasking platforms, the complexity of handling highly fragmented jobs from an anonymous crowd limits employers' monitoring and makes reputation systems less informative. In this paper, we explore how, in such a setting, monetary incentives can stimulate workers' effort and reduce the risk of undetected cheating. We model the market as a strategic interaction game between workers and employers who respectively make effort and monitoring decisions in a situation of mutual imperfect information. We estimate the model using proprietary data from a commercial micro-tasking platform where we observe the equilibrium outcome of the interaction: the rejection or approval of executed task. Our structural estimates show that tasks accepted by employers tend to overestimate workers’ effort by more than 10 percentage points on average. However, increasing monetary incentives has a notable positive impact on workers’ effort and can help to reduce this gap.</p>
+        <p><b>Selected presentations:</b></p>
       </div>
     </div>
   </div>
 </div>
-   <p>Paper 2</p>
-  </div>
- </div>
-  <div class="w3-cell-row">
-  <div class="w3-container w3-white w3-cell" style="width:25%">
-    <p>Working Papers</p>
-  </div>
-  <div class="w3-container w3-white w3-cell" >
-   <div class="w3-container">
-   <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white">"CAree"</button>
+   <p><b>"Crowd-sourcing AI Related Tasks: Insights from an Online Labor Platform"</b></p>
+<p> with Ulrich Laitenberger <button class="w3-btn w3-round-xxlarge w3-khaki" onclick="document.getElementById('id01').style.display='block'">Abstract</button></p>
    <div id="id01" class="w3-modal">
     <div class="w3-modal-content">
       <div class="w3-container">
         <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-        <p>Some text. Some text. Some text.</p>
-        <p>Some text. Some text. Some text.</p>
+        <p>Add</p>
+        <p><b>Selected presentations:</b></p>
       </div>
     </div>
   </div>
 </div>
-   <p>Paper 2</p>
-  </div>
- </div>
 </div>
+
+<div class="w3-cell-row">
+  <div class="w3-container w3-white w3-cell w3-center" style="width:25%">
+    <p>Other Research<a id="research1"></p>
+  </div>
+  <div class="w3-container w3-white w3-cell" >
+        <p>Crowdworking in France and Germany, with Ulrich Laitenberger, Daniel Erdsiek, and Paola Tubaro. ZEW expert brief Nr. 21-09</p>
+      </div>
+    </div>
+
+  
+
+
 
 <hr>
 
 <div class="w3-container w3-center w3-white">
-  <h2><a id="CV">CV</h2>
+  <h2><a id="cv">CV</h2>
   <p>Here some info about me</p>
+</div>
+  <hr>
+
+<div class="w3-container w3-white">
+  <div class="w3-container w3-center">
+    <h2><a id="teaching">Teaching</h2>
+  </div>
+  <p> Teaching Assistant:</p>
+  <ul>     
+    <li>Economics of Digital Platforms, Télécom Paris (A.Y.2021/2022 and A.Y.2022/2023) </li>
+    <li>Applied Econometrics, Télécom Paris (A.Y.2022/2023) </li>
+  </ul>
+        
   <hr>
 </div>
-
-<article class="w3-container w3-center w3-white">
-  <h2><a id="Teaching">Teaching</h2>
-  <p>Add some</p>
-  <hr>
-</article>
-
-<section class="w3-container w3-center w3-white">
-  <h2><a id="Miscellanea">Miscellanea</h2>
-  <p>The first cut is the deepest</p>
-  <hr>
-</section>
-
-</body>
-</html> 
