@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -23,7 +24,37 @@
         .w3-bar {
             width: 100%;
         }
+        .w3-bar-item {
+            padding: 8px 16px;
+        }
         /* Add any additional styles here */
+        @media screen and (max-width: 600px) {
+            .w3-bar-item {
+                display: none;
+            }
+            .w3-bar-item.w3-mobile {
+                display: block;
+            }
+            .w3-dropdown-content {
+                position: static;
+                display: none;
+                background-color: inherit;
+                min-width: 160px;
+                box-shadow: none;
+                z-index: 1;
+            }
+            .w3-dropdown-content a {
+                float: none;
+                color: #000;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .w3-dropdown-hover:hover .w3-dropdown-content {
+                display: block;
+            }
+        }
     </style>
 </head>
 <body>
@@ -39,7 +70,7 @@
             </div>
         </div>
         <a href="#cv" class="w3-bar-item w3-button w3-mobile">CV</a>
-                <a href="#teaching" class="w3-bar-item w3-button w3-mobile">Teaching</a>
+        <a href="#teaching" class="w3-bar-item w3-button w3-mobile">Teaching</a>
     </div>
 </nav>
 
@@ -56,12 +87,12 @@
 
    <div class="w3-container w3-center w3-white">
 
-   <img src="IMG_8878.JPG" alt="Foto" style="width:50%" class="w3-circle">
+   <img src="ISTO_Oct_2023-3822.png" alt="Avatar" style="width:50%" class="w3-circle">
 
    </div>
  </div>
  <div class="w3-container w3-white w3-cell">
-  <p> Webpage in constrcution! </p>
+  <p> Webpage in construction! </p>
  </div>
 </div>
 
@@ -147,3 +178,5 @@ Works and When it Does Not" </b> </p>
         
   <hr>
 </div>
+</body>
+</html>
