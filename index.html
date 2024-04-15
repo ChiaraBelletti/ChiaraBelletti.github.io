@@ -29,6 +29,10 @@
         .w3-bar-item {
             padding: 8px 16px;
         }
+        /* Only show menu icon on small screens */
+        .menu-icon {
+            display: none;
+        }
         @media screen and (max-width: 600px) {
             .w3-bar-item:not(:first-child) {
                 display: none;
@@ -80,28 +84,16 @@
                 text-decoration: none;
             }
         }
-
-        /* Additional styles for larger screens */
-        @media screen and (min-width: 601px) {
-            .navbar .w3-bar-item:not(:first-child) {
-                display: block !important;
-            }
-            .navbar .menu-icon {
-                display: none;
-            }
-            .navbar .menu-dropdown {
-                display: none;
-            }
-        }
     </style>
 </head>
 <body>
 <nav class="navbar">
     <a href="#" class="w3-bar-item w3-button w3-white">CHIARA BELLETTI</a>
-    <!-- Dropdown menu -->
+    <!-- Menu icon for mobile -->
     <a href="javascript:void(0);" class="w3-bar-item w3-button w3-right w3-hide-large menu-icon" onclick="toggleMenu()">
         <i class="fa fa-bars"></i>
     </a>
+    <!-- Dropdown menu for mobile -->
     <div class="w3-dropdown-hover w3-mobile w3-hide-large menu-dropdown" id="mobileMenu">
         <button class="w3-button">Menu <i class="fa fa-caret-down"></i></button>
         <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
@@ -110,6 +102,7 @@
             <a href="#teaching" class="w3-bar-item w3-button w3-mobile">Teaching</a>
         </div>
     </div>
+    <!-- Original navigation for larger screens -->
     <div class="w3-dropdown-hover w3-mobile w3-right w3-hide-small w3-hide-medium">
         <button class="w3-button">Research <i class="fa fa-caret-down"></i></button>
         <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
