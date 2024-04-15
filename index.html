@@ -29,7 +29,7 @@
             padding: 8px 16px;
         }
         @media screen and (max-width: 600px) {
-            .w3-bar-item {
+            .w3-bar-item:not(:first-child) {
                 display: none;
             }
             .w3-dropdown-content {
@@ -52,25 +52,54 @@
                 display: block;
             }
         }
-        /* Add more responsive styles as needed */
+        .w3-bar-item:first-child {
+            display: block;
+            float: left;
+            text-align: center;
+            width: 100%;
+        }
+        .w3-bar-item:first-child .menu-icon {
+            display: block;
+            float: right;
+            padding-right: 10px;
+        }
     </style>
 </head>
 <body>
 <nav class="navbar">
     <div class="w3-bar w3-light-grey">
         <a href="#" class="w3-bar-item w3-button w3-white">CHIARA BELLETTI</a>
+        <a href="javascript:void(0);" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium menu-icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
         <!-- Dropdown menu -->
         <div class="w3-dropdown-hover w3-mobile">
-            <button class="w3-button">Research <i class="fa fa-caret-down"></i></button>
+            <button class="w3-button w3-hide-small">Research <i class="fa fa-caret-down"></i></button>
             <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
                 <a href="#research" class="w3-bar-item w3-button w3-mobile">Work in Progress</a>
                 <a href="#research1" class="w3-bar-item w3-button w3-mobile">Other Research</a>
             </div>
         </div>
-        <a href="#cv" class="w3-bar-item w3-button w3-mobile">CV</a>
-        <a href="#teaching" class="w3-bar-item w3-button w3-mobile">Teaching</a>
+        <a href="#cv" class="w3-bar-item w3-button w3-hide-small w3-mobile">CV</a>
+        <a href="#teaching" class="w3-bar-item w3-button w3-hide-small w3-mobile">Teaching</a>
     </div>
 </nav>
+
+<div style="margin-top: 60px;">
+</div>
+
+<!-- Rest of your content -->
+
+<script>
+    function toggleMenu() {
+        var x = document.querySelector(".w3-bar");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
 
 <div style="margin-top: 60px;">
 </div>
