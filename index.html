@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Chiara Belletti</title>
-    <link href="https://fonts.googleapis.com/css2?fa <p>Here some info about me</p>mily=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="styles.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,36 +29,37 @@
             padding: 8px 16px;
         }
         @media screen and (max-width: 600px) {
-        .w3-bar-item {
-            display: none;
+            .w3-bar-item {
+                display: none;
+            }
+            .w3-dropdown-content {
+                position: static;
+                display: none;
+                background-color: inherit;
+                min-width: 160px;
+                box-shadow: none;
+                z-index: 1;
+            }
+            .w3-dropdown-content a {
+                float: none;
+                color: #000;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .w3-dropdown-hover:hover .w3-dropdown-content {
+                display: block;
+            }
         }
-        .w3-dropdown-content {
-            position: static;
-            display: none;
-            background-color: inherit;
-            min-width: 160px;
-            box-shadow: none;
-            z-index: 1;
-       }
-       .w3-dropdown-content a {
-           float: none;
-           color: #000;
-           padding: 12px 16px;
-           text-decoration: none;
-           display: block;
-           text-align: left;
-      }
-      .w3-dropdown-hover:hover .w3-dropdown-content {
-        display: block;
-      }
-    }
-</style>
+        /* Add more responsive styles as needed */
+    </style>
 </head>
-
 <body>
 <nav class="navbar">
     <div class="w3-bar w3-light-grey">
         <a href="#" class="w3-bar-item w3-button w3-white">CHIARA BELLETTI</a>
+        <!-- Dropdown menu -->
         <div class="w3-dropdown-hover w3-mobile">
             <button class="w3-button">Research <i class="fa fa-caret-down"></i></button>
             <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
