@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +22,7 @@
             width: 100%;
             z-index: 1000;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-            background-color: #fff; /* Add solid background color */
+            background-color: #fff;
         }
         .w3-bar {
             width: 100%;
@@ -83,14 +84,6 @@
                 color: #000;
                 text-decoration: none;
             }
-            /* Adjust layout for mobile */
-            .content-container {
-                margin-top: 120px; /* Adjust as needed */
-            }
-            .content-text {
-                padding: 20px;
-                text-align: center;
-            }
         }
     </style>
 </head>
@@ -107,8 +100,31 @@
         <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
             <a href="#research" class="w3-bar-item w3-button w3-mobile">Research</a>
             <a href="#cv" class="w3-bar-item w3-button w3-mobile">CV</a>
-            <a href="#te
+            <a href="#teaching" class="w3-bar-item w3-button w3-mobile">Teaching</a>
+        </div>
+    </div>
+    <!-- Original navigation for larger screens -->
+    <div class="w3-dropdown-hover w3-mobile w3-right w3-hide-small w3-hide-medium">
+        <button class="w3-button">Research <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+            <a href="#research" class="w3-bar-item w3-button w3-mobile">Work in Progress</a>
+            <a href="#research1" class="w3-bar-item w3-button w3-mobile">Other Research</a>
+        </div>
+    </div>
+    <a href="#cv" class="w3-bar-item w3-button w3-right w3-hide-small w3-hide-medium">CV</a>
+    <a href="#teaching" class="w3-bar-item w3-button w3-right w3-hide-small w3-hide-medium">Teaching</a>
+</nav>
 
+<script>
+    function toggleMenu() {
+        var x = document.getElementById("mobileMenu");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 
 <div style="margin-top: 60px;">
 </div>
