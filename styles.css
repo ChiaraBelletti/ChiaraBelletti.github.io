@@ -1,0 +1,256 @@
+body {
+    margin: 5%;
+    padding-bottom: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    position: relative;
+    margin-left: 5%;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 90%;
+    z-index: 1000;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(201, 195, 195, 0.67);
+}
+
+.main-panel {
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: inline-block;
+    max-font-size: 1.65vw;
+}
+
+/*
+___ sections ___
+ */
+.w3-cell-row-pres {
+    border-radius: 10px;
+    border-bottom: 1px solid #cea10c;
+    background-color: #f3f0f0;
+    display: flex;
+    box-sizing: content-box;
+}
+
+.w3-left-pres {
+    margin-left: 5%;
+    margin-top: 5%;
+    height: auto;
+    width: auto;
+    max-width: 45%;
+    max-height: 40%;
+}
+.container-right-presentation {
+    margin-top: 5%;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    margin-right: 8%;
+}
+.icons {
+    padding-left: 12%;
+    text-align: match-parent;
+    font-size: 3.6em;
+    color: #cea10c;
+}
+.icons i:hover {
+    font-size: 120%;
+    transition: ease-in 0.2s;
+    color: #a88411;
+
+}
+.w3-circle{
+    margin: 7%;
+    border-radius: 50%;
+    max-width: 65%;
+    max-height: 55%;
+
+}
+/*
+___ end presentation section ___
+ */
+.w3-container-research, .w3-container-teaching {
+    border-radius: 12px;
+    background-color: #d5d5d5;
+    margin-bottom: 2%;
+}
+.w3-container-research h2, .w3-container-teaching h2 {
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.w3-container-teaching h3, .w3-container-research h3 {
+    font-style: italic;
+    margin-bottom: 15%;
+}
+.w3-container-teaching:hover, .w3-container-research:hover {
+    box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.5);
+    transition: ease-in 0.3s;
+
+}
+.w3-cell-row {
+    border-bottom: 1px solid #cea10c;
+    background-color: #f3f0f0;
+    padding-bottom: 1%;
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.w3-left {
+    margin-left: 6%;
+    min-font-size: 2.25 vw;
+    width: auto;
+    height: auto;
+}
+.w3-container-right {
+    margin-right: 5%;
+    margin-left: 15%;
+    max-font-size: 15px;
+}
+.w3-container-right a:hover {
+    color: #cea10c;
+}
+.w3-btn {
+    margin-left: 5%;
+    background-color: #ecc64e;
+    max-font-size: 11px;
+    box-sizing: content-box;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+.w3-btn:hover {
+    background-color: #d9ad1e;
+    border-radius: 35px;
+    border: 1px solid #000000;
+    color: white;
+    transition: ease-in 0.2s;
+
+}
+
+.w3-container .w3-button {
+    font-size: 120%;
+    margin-left: 95%;
+    margin-bottom: 2%;
+}
+.w3-container .w3-button:hover {
+    border: 1px solid #000000;
+    border-radius: 15%;
+}
+#research, #teaching {
+    position: marker;
+}
+
+.w3-bar {
+    width: 100%;
+}
+.w3-bar-item {
+    padding: 8px 16px;
+}
+
+/*
+__________________________________________________________________________________
+ */
+
+@media screen and (min-width: 700px) {
+    .w3-dropdown-hover {
+        display: block;
+        position: relative;
+        margin-right: 1%;
+    }
+    .dropbtn {
+        display: none;
+    }
+    .dropdown-content {
+        display: none;
+    }
+}
+
+/* Only show menu icon on small screens */
+
+@media screen and (max-width: 700px) {
+    .w3-dropdown-hover {
+        display: none;
+        position: marker;
+    }
+    .dropbtn {
+        background-color: #d3d3cf;
+        width: 40px;
+        color: #000000;
+        cursor: pointer;
+        height: 40px;
+        border: 1px solid #000000;
+        text-align: center;
+        position: fixed;
+        font-size: 18px;
+        border-radius: 20%;
+    }
+
+   #iconMenu {
+        animation: rotation 0.4s ease-in-out;
+        cursor: pointer;
+    }
+
+    @keyframes rotation{
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(180deg);
+        }
+    }
+
+    .dropbtn:hover {
+        color: #000000;
+        border-radius: 45%;
+        transition: ease-in 0.1s;
+    }
+
+    .dropdown {
+        display: inline-block;
+        position: fixed;
+        font-size: 1.75vw;
+        max-font-size: 12px;
+        left: 84%;
+        height: 60px;
+        margin-right: 15%;
+    }
+
+    .dropdown-content {
+       display: none;
+        background-color: #dad3d3;
+        top: 65%;
+        border: 1px solid #000000;
+        border-radius: 5%;
+        position: absolute;
+        min-width: 10%;
+        z-index: 1;
+        margin-top: 40%;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #eae1c3;
+        border-radius: 7%;
+    }
+}
+
+
+
+
+
+/*
+______________________________________________________________________________________
+ */
