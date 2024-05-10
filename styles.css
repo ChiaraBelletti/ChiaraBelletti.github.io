@@ -27,7 +27,9 @@ ___ sections ___
  */
 .w3-cell-row-pres {
     border-radius: 10px;
-    border-bottom: 1px solid #cea10c;
+    //border-bottom: 1px solid #cea10c;
+    border-bottom: 1px solid #ce0c30;
+    //background-color: #f3f0f0;
     background-color: #f3f0f0;
     display: flex;
     box-sizing: content-box;
@@ -36,6 +38,7 @@ ___ sections ___
 .w3-left-pres {
     margin-left: 5%;
     margin-top: 5%;
+    display: block;
     height: auto;
     width: auto;
     max-width: 45%;
@@ -50,15 +53,22 @@ ___ sections ___
     margin-right: 8%;
 }
 .icons {
-    padding-left: 12%;
+    padding-left: 11%;
+    margin-left: 7%;
+    position: relative;
     text-align: match-parent;
-    font-size: 3.6em;
-    color: #cea10c;
+    font-size: 3.5em;
+    //color: #cea10c;
+    color: #ce0c30;
 }
 .icons i:hover {
     font-size: 120%;
     transition: ease-in 0.2s;
-    color: #a88411;
+    //color: #a88411;
+    /*
+    Versione della palette con crome in giallo
+     */
+    color: #a81111;
 
 }
 .w3-circle{
@@ -66,7 +76,8 @@ ___ sections ___
     border-radius: 50%;
     max-width: 65%;
     max-height: 55%;
-
+    min-width: available;
+    min-height: available;
 }
 /*
 ___ end presentation section ___
@@ -92,7 +103,8 @@ ___ end presentation section ___
 
 }
 .w3-cell-row {
-    border-bottom: 1px solid #cea10c;
+    //border-bottom: 1px solid #cea10c;
+    border-bottom: 1px solid #ce0c30;
     background-color: #f3f0f0;
     padding-bottom: 1%;
     display: inline-flex;
@@ -111,23 +123,26 @@ ___ end presentation section ___
     max-font-size: 15px;
 }
 .w3-container-right a:hover {
-    color: #cea10c;
+    //color: #cea10c;
+    color: #ce0c30;
 }
 .w3-btn {
     margin-left: 5%;
-    background-color: #ecc64e;
+    //background-color: #ecc64e;
+    background-color: #ec4e53;
+    color: white;
     max-font-size: 11px;
     box-sizing: content-box;
     width: auto;
     height: auto;
     border-radius: 15px;
-    border: 1px solid #000000;
+
 }
 
 .w3-btn:hover {
-    background-color: #d9ad1e;
+    //background-color: #d9ad1e;
+    background-color: #d91e1e;
     border-radius: 35px;
-    border: 1px solid #000000;
     color: white;
     transition: ease-in 0.2s;
 
@@ -157,6 +172,7 @@ ___ end presentation section ___
     font-size: 20px;
     text-align: center;
 }
+
 /*
 __________________________________________________________________________________
  */
@@ -250,6 +266,11 @@ ________________________________________________________________________________
         border-radius: 7%;
     }
 }
+
+
+
+
+
 /*
 ______________________________________________________________________________________
  */

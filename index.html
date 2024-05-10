@@ -13,11 +13,6 @@
 
 <nav class="navbar">
     <a href="#" class="w3-bar-item w3-button w3-white" id="name">CHIARA BELLETTI</a>
-    <!-- Menu icon for mobile
-    <a href="javascript:void(0);" class="w3-bar-item w3-button w3-right w3-hide-large menu-icon" style="font-size: 15px" onclick="toggleMenu()">
-        <i class="fa fa-bars"></i>
-    </a>
-    -->
 
     <!-- Dropdown menu for mobile -->
         <div class="dropdown">
@@ -25,20 +20,20 @@
             </button>
             <div class="dropdown-content" id="mobileMenu">
             <a href="#research" onclick="funHigh('research')"><b>Research</b></a>
-            <a href="https://www.dropbox.com/scl/fi/kdeg17efr6d4frh2fne7g/CB_cv.pdf?rlkey=dgeka7lo5tkcd0zv5vr1zxjd6&e=1&dl=0"><b>CV</b></a>
+            <a href="https://www.dropbox.com/scl/fi/w3xr4ws9mhgw7gq0iqgzw/CB_cv.pdf?rlkey=gb0dq34jawurduqafs8pechpy&dl=0"><b>CV</b></a>
             <a href="#teaching"  onclick="funHigh('teaching')"><b>Teaching</b></a>
             </div>
             </div>
         </div>
 
     <!-- Dropdown menu for larger screens -->
-    <div class="w3-dropdown-hover w3-hide-small" style="font-size: 1.45vw">
+    <div class="w3-dropdown-hover w3-hide-small" style="font-size: 1.40vw">
         <button class="w3-button"><b>Research</b><i class="fa fa-caret-down"></i></button>
         <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
             <a href="#research" class="w3-bar-item w3-button" onclick="funHigh('research')">Work in Progress</a>
             <a href="#research1" class="w3-bar-item w3-button" onclick="funHigh('research1')">Other Research</a>
         </div>
-        <a href="https://www.dropbox.com/scl/fi/kdeg17efr6d4frh2fne7g/CB_cv.pdf?rlkey=dgeka7lo5tkcd0zv5vr1zxjd6&e=1&dl=0" class="w3-bar-item w3-button"><b>CV</b></a>
+        <a href="https://www.dropbox.com/scl/fi/w3xr4ws9mhgw7gq0iqgzw/CB_cv.pdf?rlkey=gb0dq34jawurduqafs8pechpy&dl=0" class="w3-bar-item w3-button"><b>CV</b></a>
         <a href="#teaching" class="w3-bar-item w3-button" onclick="funHigh('teaching')"><b>Teaching</b></a>
     </div>
     </nav>
@@ -59,12 +54,17 @@
         let x = document.getElementById(id);
         //x.setAttribute("class","active");
 
-
-        let unBlue=100;
+        let unRed = 153;
+        let unBlue=150;
+        let unGreen=150;
         let gEvent=setInterval(function toWhite() {
-            if (unBlue < 241) x.style.backgroundColor = "rgb(243,240," + unBlue + ")";
+            //if (unBlue < 241) x.style.backgroundColor = "rgb(243,240," + unBlue + ")";
+            if (unRed < 244) x.style.backgroundColor = "rgb("+ unRed + "," + unGreen +"," + unBlue + ")";
             else clearInterval(gEvent)
+            unRed += 10;
+            unGreen += 10;
             unBlue += 10;
+
         }, 100);
 
     }
@@ -73,8 +73,8 @@
 
      <div class="w3-cell-row-pres">
        <div class="w3-left-pres">
-        <img src="ISTO_Oct_2023-3752-modified.jpg" alt="ChiaraBellettiPic" class="w3-circle">
-        <div class="icons">
+        <img src="assets/ISTO_Oct_2023-3752-modified.jpg" alt="ChiaraBellettiPic" class="w3-circle">
+           <div class="icons">
                    <a href="https://www.linkedin.com/in/chiarabellettits/" target="_blank" rel="noopener noreferrer" style="text-decoration: none">
                        <i class="fa fa-linkedin-square">
                        </i>
