@@ -11,26 +11,17 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Economics, Télécom Paris, Institut Polytechnique de Paris, 2024
+* M.S. in Economics and Political Science, University of Milan, 2018
+* B.S. in International Relations, University of Trieste, 2017
 
-Work experience
+Academic Positions
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* April 2024 - January 2025: Postdoctoral Researcher 
+  * LMU University (Institute for Strategy, Technology and Organization)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* January 2025 - : Postdoctoral Researcher 
+  * University Paris Dauphine - PSL
   
 Skills
 ======
