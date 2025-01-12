@@ -7,18 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-* Digital Economics, Master in Economics, Institut Polytechnique de Paris, 2020 - present
-* E-commerce, Master IREN (Network Industries and the Digital Economy), 2021 - present
-* Applied Econometrics, 
----
-layout: archive
-title: "Teaching"
-permalink: /teaching/
-author_profile: true
-redirect_from:
-  - /teaching
----
-
 {% include base_path %}
 
 * Platform Economics (TA), Télécom Paris, 2021 - 2023 (Tutorials, Groups supervision)
