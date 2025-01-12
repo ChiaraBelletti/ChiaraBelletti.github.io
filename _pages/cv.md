@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download complete CV <a href="[https://drive.google.com/file/d/1MW8h-dE0Fe1HuT3FZsGMBfuC5PlZvKrl/view?usp=sharing](https://www.dropbox.com/scl/fi/kdeg17efr6d4frh2fne7g/CB_cv.pdf?rlkey=dgeka7lo5tkcd0zv5vr1zxjd6&dl=0)">here</a>.
+Download complete CV <a href="https://www.dropbox.com/scl/fi/kdeg17efr6d4frh2fne7g/CB_cv.pdf?rlkey=dgeka7lo5tkcd0zv5vr1zxjd6&dl=0">here</a>.
 
 Academic Positions
 ======
