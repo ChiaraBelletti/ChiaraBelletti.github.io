@@ -29,16 +29,5 @@ Work in Progress
 Policy Reports and Other Publications
 -----
  
-* "Crowdworking in France and Germany", with Ulrich Laitenberger, Daniel Erdsiek, and Paola Tubaro
+* "Crowdworking in France and Germany", with Ulrich Laitenberger, Daniel Erdsiek, and Paola Tubaro, 2021
 * <a href="https://www.zew.de/publikationen/crowdworking-in-france-and-germany" target="_blank" rel="noopener noreferrer">ZEW expert brief Nr. 21-09 </a>      
-, University of Milan, 2018
-* B.S. in International Relations, University of Trieste, 2017
-
-Academic Positions
-======
-* April 2024 - January 2025: Postdoctoral Researcher 
-  * LMU University (Institute for Strategy, Technology and Organization)
-
-* January 2025 - : Postdoctoral Researcher 
-  * University Paris Dauphine - PSL
-
