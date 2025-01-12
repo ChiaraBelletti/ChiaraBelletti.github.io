@@ -24,7 +24,7 @@ author:
   avatar           : "ISTO_Oct_2023-3752 (1).png"
   name             : "Chiara Belletti"
   pronouns         : # example: "she/her"  
-  bio              : "PostDoctotral Researcher. Digital Economics and Platforms Strategy"
+  bio              : #"PostDoctotral Researcher. Digital Economics and Platforms Strategy"
   location         : "Paris"
   employer         : "Université Paris Dauphine-PSL"
   uri              : # URL
