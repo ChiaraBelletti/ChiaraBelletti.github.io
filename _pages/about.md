@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my webpage.
+Welcome to my webpage. Website under construction
 
 Contacts
 ------
