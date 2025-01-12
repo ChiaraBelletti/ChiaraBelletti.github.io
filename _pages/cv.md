@@ -17,7 +17,7 @@ Academic Positions
   * LMU University (<a href="https://www.som.lmu.de/isto/en/">Institute for Strategy, Technology and Organization</a> )
 
 * January 2025 - : Postdoctoral Researcher 
-  * University Paris Dauphine - PSL (<a href="https://chairgovreg.fondation-dauphine.fr/">Governace and Regulation Chair</a>)
+  * University Paris Dauphine - PSL (<a href="https://chairgovreg.fondation-dauphine.fr/">Governance and Regulation Chair</a>)
 
 Education
 ======
