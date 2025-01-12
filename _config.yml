@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Chiara Belletti"
 title_separator          : "-"
-name                     : &name "Chiara"
+name                     : &name "Chiara Belletti"
 description              : &description "Digital Economics and Platform Strategy"
 url                      : https://chiarabelletti.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "http://orcid.org/0009-0009-1228-0007"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
