@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Res"
+title: "Research"
 permalink: /research/
 author_profile: true
 redirect_from:
@@ -9,20 +9,29 @@ redirect_from:
 
 {% include base_path %}
 
-Download complete CV <a href="[https://drive.google.com/file/d/1MW8h-dE0Fe1HuT3FZsGMBfuC5PlZvKrl/view?usp=sharing](https://www.dropbox.com/scl/fi/kdeg17efr6d4frh2fne7g/CB_cv.pdf?rlkey=dgeka7lo5tkcd0zv5vr1zxjd6&dl=0)">here</a>.
 
-Academic Positions
-======
-* April 2024 - January 2025: Postdoctoral Researcher 
-  * LMU University (<a href="https://www.som.lmu.de/isto/en/">Governace and Regulation Chair</a> Institute for Strategy, Technology and Organization)
+Working Papers
+----- 
 
-* January 2025 - : Postdoctoral Researcher 
-  * University Paris Dauphine - PSL (<a href="https://chairgovreg.fondation-dauphine.fr/">Governace and Regulation Chair</a>)
+* <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"Rating Systems and the End-Game Effect: When Reputation Works and When it Doesn't"</a>, with Elizaveta Pronkina and Michelangelo Rossi, 2024 (Current Draft)
+  * Reject & Resubmit, Marketing Science 
+  * <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"CESifo Working Paper No. 11253, 2024"</a>
 
-Education
-======
-* Ph.D in Economics, Télécom Paris, Institut Polytechnique de Paris, 2024
-* M.S. in Economics and Political Science, University of Milan, 2018
+Work in Progress
+-----
+
+* "How to Assess and Improve the Quality of Crowd-Sourced Data Work", with Louis Pape (Draft Available Soon)
+  
+* "Effects of Platforms Integration on Music Streaming", with Denzel Glandel and Tobias Kretschmer
+
+* "Unveiling the Demand for Data Work in the Era of AI: Evidence from a Comprehensive Micro-Task Dataset", with Ulrich Laitenberger and Paola Tubaro
+
+Policy Reports and Other Publications
+-----
+ 
+* "Crowdworking in France and Germany", with Ulrich Laitenberger, Daniel Erdsiek, and Paola Tubaro
+* <a href="https://www.zew.de/publikationen/crowdworking-in-france-and-germany" target="_blank" rel="noopener noreferrer">ZEW expert brief Nr. 21-09 </a>      
+, University of Milan, 2018
 * B.S. in International Relations, University of Trieste, 2017
 
 Academic Positions
