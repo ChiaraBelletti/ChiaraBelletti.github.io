@@ -14,7 +14,7 @@ Download complete CV <a href="https://www.dropbox.com/scl/fi/kdeg17efr6d4frh2fne
 Academic Positions
 ======
 * April 2024 - January 2025: Postdoctoral Researcher 
-  * LMU University (<a href="https://www.som.lmu.de/isto/en/">Governace and Regulation Chair</a> Institute for Strategy, Technology and Organization)
+  * LMU University (<a href="https://www.som.lmu.de/isto/en/">Institute for Strategy, Technology and Organization</a> )
 
 * January 2025 - : Postdoctoral Researcher 
   * University Paris Dauphine - PSL (<a href="https://chairgovreg.fondation-dauphine.fr/">Governace and Regulation Chair</a>)
@@ -25,11 +25,4 @@ Education
 * M.S. in Economics and Political Science, University of Milan, 2018
 * B.S. in International Relations, University of Trieste, 2017
 
-Academic Positions
-======
-* April 2024 - January 2025: Postdoctoral Researcher 
-  * LMU University (Institute for Strategy, Technology and Organization)
-
-* January 2025 - : Postdoctoral Researcher 
-  * University Paris Dauphine - PSL
 
