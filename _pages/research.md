@@ -30,4 +30,4 @@ Policy Reports and Other Publications
 -----
  
 * "Crowdworking in France and Germany", with Ulrich Laitenberger, Daniel Erdsiek, and Paola Tubaro, 2021
-* <a href="https://www.zew.de/publikationen/crowdworking-in-france-and-germany" target="_blank" rel="noopener noreferrer">ZEW expert brief Nr. 21-09 </a>      
+  * <a href="https://www.zew.de/publikationen/crowdworking-in-france-and-germany" target="_blank" rel="noopener noreferrer">ZEW expert brief Nr. 21-09 </a>      
