@@ -14,10 +14,10 @@ Download complete CV <a href="https://www.dropbox.com/scl/fi/kdeg17efr6d4frh2fne
 Academic Positions
 ======
 * April 2024 - January 2025: Postdoctoral Researcher 
-  * LMU University (<a href="https://www.som.lmu.de/isto/en/">Institute for Strategy, Technology and Organization.</a> )
+  * LMU University (<a href="https://www.som.lmu.de/isto/en/">Institute for Strategy, Technology and Organization</a>).
 
 * January 2025 - : Postdoctoral Researcher 
-  * University Paris Dauphine - PSL (<a href="https://chairgovreg.fondation-dauphine.fr/">Governance and Regulation Chair.</a>)
+  * University Paris Dauphine - PSL (<a href="https://chairgovreg.fondation-dauphine.fr/">Governance and Regulation Chair</a>).
 
 Education
 ======
