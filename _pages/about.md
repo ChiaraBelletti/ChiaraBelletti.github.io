@@ -18,6 +18,7 @@ I am particularly interested in industries such as online labor markets, short-t
 Contacts
 ------
 
-Email: <a href="mailto:">chiara.belletti@lmu.de</a>.
+Email: <a href="mailto:">chiara.belletti@dauphine.psl.eu</a>.
+
 Address: Pl. du Maréchal de Lattre de Tassigny, 75016 Paris.
 
