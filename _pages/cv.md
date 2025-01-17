@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download complete CV <a href="https://www.dropbox.com/scl/fi/kdeg17efr6d4frh2fne7g/CB_cv.pdf?rlkey=dgeka7lo5tkcd0zv5vr1zxjd6&dl=0">here</a>.
+Download complete CV <a href="https://www.dropbox.com/scl/fi/a9zsd0p50ftklqun4zx6s/CV_Chiara_Belletti.pdf?rlkey=m5cv87834nnj82d49t2kl273k&st=qoh6iiz9&dl=0">here</a>.
 
 Academic Positions
 ======
