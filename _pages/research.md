@@ -24,6 +24,8 @@ Work in Progress
   
 * "Effects of Platforms Integration on Music Streaming", with Denzel Glandel and Tobias Kretschmer.
 
+* "Profile Restarts in Short-Term Rental Platforms", with Joerg Claussen and Michail Batikas.
+
 * "Unveiling the Demand for Data Work in the Era of AI: Evidence from a Comprehensive Micro-Task Dataset", with Ulrich Laitenberger and Paola Tubaro.
 
 Policy Reports and Other Publications
