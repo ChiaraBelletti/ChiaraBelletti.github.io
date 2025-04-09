@@ -16,6 +16,8 @@ My research focuses on the empirical analysis of digital platforms. I am particu
 
 Industries I study include online labor markets, short-term rentals, and music streaming.
 
+From January 2025, I serve as the Scientific Coordinator for the Governance and Regulation Chair's research project BlablaModes (in collaboration with BlaBlaCar and supported by ADEME).
+
 Contacts
 ------
 
