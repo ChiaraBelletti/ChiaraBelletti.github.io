@@ -5,7 +5,7 @@ Name Name:
   uri         : "http://name.com"
   email       : "chiara.belletti@lmu.de"
   bio         : "Digital Economics ..."
-  avatar      : "ISTO_Oct_2023-3752.png"
+  avatar      : "images/ISTO_Oct_2023-3752.png"
   twitter     : "name"
   google_plus : "Name"
 
@@ -13,6 +13,6 @@ Name2 Name2:
   name        : "Name2 Name2"
   email       : "name2@name2.com"
   bio         : "I ordered what?"
-  avatar      : "ISTO_Oct_2023-3752.png"
+  avatar      : "images/ISTO_Oct_2023-3752.png"
   twitter     : "name2"
   google_plus : "Name"
