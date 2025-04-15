@@ -26,11 +26,14 @@ Work in Progress
 
 * "Profile Restarts in Short-Term Rental Platforms", with Joerg Claussen and Michail Batikas.
 
-* "Unveiling the Demand for Data Work in the Era of AI: Evidence from a Comprehensive Micro-Task Dataset", with Ulrich Laitenberger and Paola Tubaro.
   
 Early-Stage Projects
 -----
 * "Picky Drivers: Reputation and Selectivity on a Car-Pooling Platform".
+
+Sleeping papers awaiting revival
+-----
+* "Unveiling the Demand for Data Work in the Era of AI: Evidence from a Comprehensive Micro-Task Dataset", with Ulrich Laitenberger and Paola Tubaro.
 
 
 Policy Reports and Other Publications
