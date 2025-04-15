@@ -31,7 +31,7 @@ Early-Stage Projects
 -----
 * "Picky Drivers: Reputation and Selectivity on a Car-Pooling Platform".
 
-Sleeping papers awaiting revival
+Sleeping Papers Awaiting Revival
 -----
 * "Unveiling the Demand for Data Work in the Era of AI: Evidence from a Comprehensive Micro-Task Dataset", with Ulrich Laitenberger and Paola Tubaro.
 
