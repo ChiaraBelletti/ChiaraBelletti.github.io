@@ -15,14 +15,16 @@ Quantitative Marketing
 Working Papers
 ----- 
 
-* <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"Rating Systems and the End-Game Effect: When Reputation Works and When it Doesn't"</a>, with Elizaveta Pronkina and Michelangelo Rossi, 2024 (Current Draft).
+* <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"Rating Systems and the End-Game Effect: When Reputation Works and When it Doesn't"</a>, with Elizaveta Pronkina (Amazon) and Michelangelo Rossi (Télécom Paris), 2024 (Current Draft).
   * Reject & Resubmit, Marketing Science.
-  * <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"CESifo Working Paper No. 11253, 2024."</a>
+  * Draft: <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"CESifo Working Paper No. 11253, 2024."</a>
 
 Work in Progress
 -----
 
-* "How to Assess and Improve the Quality of Crowd-Sourced Data Work", with Louis Pape (Draft Available Soon).
+* "How to Assess and Improve the Quality of Crowd-Sourced Data Work", with Louis Daniel Pape.
+  * Reject & Resubmit, Marketing Science.
+  * Draft: <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"CESifo Working Paper No. 11253, 2024."</a>
   
 * "Effects of Platforms Integration on Music Streaming", with Denzel Glandel and Tobias Kretschmer.
 
