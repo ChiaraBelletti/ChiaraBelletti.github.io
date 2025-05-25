@@ -33,14 +33,13 @@ We develop a structural model of equilibrium demand and supply of effort to meas
 * "Unveiling the Demand for Data Work in the Era of AI: Evidence from a Comprehensive Micro-Task Dataset", with Ulrich Laitenberger (Tilburg University) and Paola Tubaro (ENSAE, CREST).
   * Abstract: This paper studies firm and worker behavior on a commercial crowd-working platform characterized by anonymity and limited employer-employee interactions and provides descriptive insights into how crowd-working platforms are used for outsourcing data-related work (e.g. AI training). The study begins by providing context on the platform under study and unveiling a recent growing demand for crowd-sourced data work. It also examines how firms ensure tasks’ execution quality through worker selection, wage setting, and monitoring. A regression framework allows for the identification of specific factors that distinguish demand for data work from other tasks. The higher targeting of demand towards predefined groups of contributors based on experience or geographic location, along with a larger rejection probability for data annotation tasks, underscores the importance of quality execution for firms outsourcing in this domain.
 
-  
 * "Can Platform Integration Mitigate Discovery Loss in the Digital Consumption Funnel?", with Denzel Glandel (LMU Munich) and Tobias Kretschmer (LMU Munich). Draft available soon.
 
-* "Profile Restarts in Short-Term Rental Platforms", with Joerg Claussen and Michail Batikas. Draft available soon.
+* "Replaceables? Profile Restarting on Digital Platforms. Evidence from the Short-Term Rental Market", with Joerg Claussen (LMU Munich) and Michail Batikas (NOVA Lisbon). Draft available soon.
 
 Research Projects
 -----
-* "Picky Drivers: Reputation and Selectivity on a Car-Pooling Platform".
+* "Picky Drivers: Reputation and Selectivity on a Car-Pooling Platform", with Dianzhuo Zhu (University of Lille).
 
 
 Policy Reports and Other Publications
