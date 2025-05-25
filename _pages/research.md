@@ -18,7 +18,7 @@ Working Papers
 
 * <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"Rating Systems and the End-Game Effect: When Reputation Works and When it Doesn't"</a>, with Elizaveta Pronkina (Amazon) and Michelangelo Rossi (Télécom Paris), 2024 (Current Draft).
   * Reject & Resubmit, Marketing Science.
-  * Draft: <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"CESifo Working Paper No. 11253, 2024."</a>
+  * Draft: <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">CESifo Working Paper No. 11253, 2024.</a>
   * Abstract: Do rating systems provide incentives to sellers when they are about to exit a market? Using data from Airbnb, this paper examines how end-of-game considerations affect hosts’ effort decisions. We take advantage of a regulation on short-term rentals in the City of Los Angeles to identify hosts who anticipated their imminent exit from the platform due to non-compliance with new eligibility rules. We focus on hosts who left the platform as a result of the regulation and measure their effort with listing’s ratings in effort-related categories such as check-in, communication, and cleanliness.
 Using a Difference-in-Differences and Event Study approach, we compare how effort-related ratings changed—relative to location ratings—after the regulation was announced and during its implementation. Our analysis documents a statistically significant decrease in effort in the last periods of the hosts’ activity. These findings provide insights for platform managers, emphasizing how end-of-game considerations can undermine the effectiveness of rating systems in incentivizing high-quality service provision.
 
@@ -52,4 +52,4 @@ Policy Reports and Other Publications
   * <a href="https://www.zew.de/publikationen/crowdworking-in-france-and-germany" target="_blank" rel="noopener noreferrer">ZEW expert brief Nr. 21-09. </a>
 
 * Country chapter Italy, with Riccardo Norbiato (PSE) in Social Protection of Non-Standard Workers and the Self-Employed During the Pandemic, Spasova S., Ghailani D., Sabato S. and Vanhercke B.
-*  * <a href="[https://www.zew.de/publikationen/crowdworking-in-france-and-germany](https://www.etui.org/sites/default/files/2021-10/Social%20protection%20of%20non-standard%20workers%20and%20the%20self-employed%20during%20the%20pandemic-country%20chapters-2021.pdf)" target="_blank" rel="noopener noreferrer">Available here.</a>\href{}{}.
+*  * <a href="https://www.etui.org/sites/default/files/2021-10/Social%20protection%20of%20non-standard%20workers%20and%20the%20self-employed%20during%20the%20pandemic-country%20chapters-2021.pdf" target="_blank" rel="noopener noreferrer">Available here.</a>\href{}{}.
