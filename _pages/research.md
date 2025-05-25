@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Research interests: Applied Microeconomics, Digital Economics, Information Systems, Marketing, Platform Strategy,
+Quantitative Marketing
 
 Working Papers
 ----- 
