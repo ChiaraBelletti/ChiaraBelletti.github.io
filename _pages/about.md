@@ -22,6 +22,7 @@ Contacts
 ------
 
 Institutional Email: <a href="mailto:">chiara.belletti@dauphine.psl.eu</a>.
+
 Personal Email: <a href="mailto:">chiara.belletti.ts@gmail.com</a>.
 
 Address: Pl. du Maréchal de Lattre de Tassigny, 75016 Paris.
