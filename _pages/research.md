@@ -24,20 +24,18 @@ Work in Progress
 
 * "How to Assess and Improve the Quality of Crowd-Sourced Data Work", with Louis Daniel Pape.
   * Reject & Resubmit, Marketing Science.
-  * Draft: <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"CESifo Working Paper No. 11253, 2024."</a>
-  
-* "Effects of Platforms Integration on Music Streaming", with Denzel Glandel and Tobias Kretschmer.
+  * Draft: <a href="https://www.dropbox.com/scl/fi/i0vmamm0uu8bray6utjmz/Quality_MW.pdf?rlkey=01j6c33ylpprjsdtu8z9ye4wa&dl=0">"available here."</a>
 
-* "Profile Restarts in Short-Term Rental Platforms", with Joerg Claussen and Michail Batikas.
+* "Unveiling the Demand for Data Work in the Era of AI: Evidence from a Comprehensive Micro-Task Dataset", with Ulrich Laitenberger and Paola Tubaro.
 
   
-Early-Stage Projects
+* "Effects of Platforms Integration on Music Streaming", with Denzel Glandel and Tobias Kretschmer. Draft available soon.
+
+* "Profile Restarts in Short-Term Rental Platforms", with Joerg Claussen and Michail Batikas. Draft available soon.
+
+Research Projects
 -----
 * "Picky Drivers: Reputation and Selectivity on a Car-Pooling Platform".
-
-Sleeping Papers Awaiting Revival
------
-* "Unveiling the Demand for Data Work in the Era of AI: Evidence from a Comprehensive Micro-Task Dataset", with Ulrich Laitenberger and Paola Tubaro.
 
 
 Policy Reports and Other Publications
