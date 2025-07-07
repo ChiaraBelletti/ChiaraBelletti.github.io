@@ -10,13 +10,13 @@ redirect_from:
 
 Welcome to my webpage!
 
-I am a Postdoctoral Researcher at the <a href="https://chairgovreg.fondation-dauphine.fr/">Governance and Regulation Chair</a> at the Université Paris Dauphine-PSL (<a href="https://dauphine.psl.eu/">University Paris Dauphine - PSL</a>). 
+I am a Postdoctoral Researcher at the <a href="https://chairgovreg.fondation-dauphine.fr/">Governance and Regulation Chair</a> at the Université Paris Dauphine-PSL. 
 
-My research focuses on the empirical analysis of digital platforms. I am particularly interested in user behavior in two-sided markets and the impact of platform governance measures on user journey.
+My research focuses on the empirical analysis of digital platforms. I am particularly interested in user behavior in two-sided markets and the impact of platform governance measures. I also do research on platform-mediated labor and crowd-sourced data work.
 
 Industries I study include online labor markets, short-term rentals, car-pooling and music streaming.
 
-From January 2025, I am the Scientific Coordinator for the Governance and Regulation Chair's research project BlablaModes (in collaboration with BlaBlaCar and supported by ADEME).
+From January 2025, I am the Scientific Coordinator for the Governance and Regulation Chair's research project BlablaModes (in collaboration with BlaBlaCar and supported by the French Agency for Ecological Transition).
 
 Contacts
 ------
