@@ -55,4 +55,4 @@ Policy Reports and Other Publications
   * <a href="https://www.zew.de/publikationen/crowdworking-in-france-and-germany" target="_blank" rel="noopener noreferrer">ZEW expert brief Nr. 21-09. </a>
 
 * Country chapter Italy, with Riccardo Norbiato (PSE) in Social Protection of Non-Standard Workers and the Self-Employed During the Pandemic, Spasova S., Ghailani D., Sabato S. and Vanhercke B.
-*  * <a href="https://www.etui.org/sites/default/files/2021-10/Social%20protection%20of%20non-standard%20workers%20and%20the%20self-employed%20during%20the%20pandemic-country%20chapters-2021.pdf" target="_blank" rel="noopener noreferrer">Available here.</a>
+   * <a href="https://www.etui.org/sites/default/files/2021-10/Social%20protection%20of%20non-standard%20workers%20and%20the%20self-employed%20during%20the%20pandemic-country%20chapters-2021.pdf" target="_blank" rel="noopener noreferrer">Available here.</a>
