@@ -29,7 +29,7 @@ Work in Progress
 -----
 
 * "How to Assess and Improve the Quality of Crowd-Sourced Data Work", with Louis Daniel Pape (Télécom Paris).
-  * Draft: <a href="https://www.dropbox.com/scl/fi/i0vmamm0uu8bray6utjmz/Quality_MW.pdf?rlkey=01j6c33ylpprjsdtu8z9ye4wa&dl=0">available here.</a>
+  * Draft: available upon request.
   * Abstract: Micro-tasking platforms enable the collection of data used to train machine learning algorithms and artificial intelligence. However, a classical Principal-Agent problem may limit the quality of the data produced by micro-taskers as firms do not always monitor the quality of the work done with sufficient frequency.
 We develop a structural model of equilibrium demand and supply of effort to measure quality and monitoring behavior. We estimate the parameters of this model using proprietary data from a leading micro-tasking platform. We find that metrics relying on observed task rejection severely underestimate the quality/effort with which data annotation tasks are performed. This suggest AI is being built with mis-annotated data. We discuss several mitigation strategies. We find that increasing the pay of micro-taskers along with more frequent monitoring could help improve the quality of the data. Finally, we discuss incentive schemes to induce higher quality work by relying on counter-factual simulations. We show that charging penalties for workers with a rejected task could induce higher effort and require less monitoring from the firms.
 
