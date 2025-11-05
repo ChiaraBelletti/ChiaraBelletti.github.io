@@ -11,19 +11,15 @@ redirect_from:
 
 Research interests
 ----- 
-Applied Microeconomics, Digital Economics, Information Systems, Marketing, Platform Strategy, Quantitative Marketing.
+Applied Microeconomics, Digital Economics, Digital Marketing, Economics of Information Systems, Industrial Organization, Platform Strategy, Quantitative Marketing.
 
-Working Papers
+Job Market Paper
 ----- 
 
 * <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">"Rating Systems and the End-Game Effect: When Reputation Works and When it Doesn't"</a>, with Elizaveta Pronkina (Amazon) and Michelangelo Rossi (Télécom Paris), 2024 (Current Draft).
   * Reject & Resubmit, Marketing Science.
-  * Draft: <a href="https://www.cesifo.org/en/publications/2024/working-paper/rating-systems-and-end-game-effect-when-reputation-works-and-when">CESifo Working Paper No. 11253, 2024.</a>
-  * Abstract: Do rating systems provide incentives to sellers when they are about to exit a market? Using data from Airbnb, this paper examines how end-of-game considerations affect hosts effort decisions. We take advantage of a regulation on short-term rentals in the City of Los Angeles to identify hosts who
-anticipated their imminent exit from the platform due to non-compliance with new eligibility rules.
-We focus on hosts who left the platform as a result of the regulation and measure their effort with listings ratings in effort-related categories such as check-in, communication, and cleanliness. Using a Difference-in-Differences approach, we compare how effort-related ratings changed, relative to location ratings, after the regulation was announced and during its implementation.
-Our analysis documents a statistically significant decline in effort during the final periods of hosts’ activity. By highlighting how end-of-game effects can
-undermine the effectiveness of rating systems in incentivizing high-quality service provision, the paper offers valuable insights for platform managers designing reputation systems
+  * Draft: <a href="https://www.dropbox.com/scl/fi/29bxi7hlgi9qp4u3xf743/Belletti_JMP_Nov25.pdf?rlkey=aofqz9ffpskt1r8osl7q1bn2n&dl=0">Latest Version</a>
+  * Abstract: Do rating systems provide incentives when sellers are about to exit a market? Using data from Airbnb, this paper examines how end-game considerations influence hosts’ effort decisions and how these effects depend on accumulated reputation capital. We exploit the implementation of the Home-Sharing Ordinance in Los Angeles, which forced ineligible hosts to leave the platform, to identify sellers who could anticipate their imminent exit. Effort is measured through guest ratings in categories directly tied to host behavior (communication, check-in, and cleanliness) and compared to ratings on location, which are unaffected by effort. In a Difference-in-Differences framework, we find that effort-related ratings decline significantly in the final transactions of exiting hosts, with larger reductions among listings holding stronger reputational capital or longer review histories. At the same time, competitive pressure from neighboring listings with strong reputation mitigates these declines: when nearby competitors have high ratings, hosts face higher reputational costs from underperforming even as they approach exit. These findings reveal that the effectiveness of reputation systems erodes near market exit, yet the competitive pressure from highly rated nearby listings can partially sustain service quality and trust on digital platforms.
 
 Work in Progress
 -----
@@ -33,19 +29,14 @@ Work in Progress
   * Abstract: Micro-tasking platforms enable the collection of data used to train machine learning algorithms and artificial intelligence. However, a classical Principal-Agent problem may limit the quality of the data produced by micro-taskers as firms do not always monitor the quality of the work done with sufficient frequency.
 We develop a structural model of equilibrium demand and supply of effort to measure quality and monitoring behavior. We estimate the parameters of this model using proprietary data from a leading micro-tasking platform. We find that metrics relying on observed task rejection severely underestimate the quality/effort with which data annotation tasks are performed. This suggest AI is being built with mis-annotated data. We discuss several mitigation strategies. We find that increasing the pay of micro-taskers along with more frequent monitoring could help improve the quality of the data. Finally, we discuss incentive schemes to induce higher quality work by relying on counter-factual simulations. We show that charging penalties for workers with a rejected task could induce higher effort and require less monitoring from the firms.
 
-* "Unveiling the Demand for Data Work in the Era of AI: Evidence from a Comprehensive Micro-Task Dataset", with Ulrich Laitenberger (Tilburg University) and Paola Tubaro (ENSAE, CREST).
-  * Draft available upon request.
-  * Abstract: This paper studies firm and worker behavior on a commercial crowd-working platform characterized by anonymity and limited employer-employee interactions and provides descriptive insights into how crowd-working platforms are used for outsourcing data-related work (e.g. AI training). The study begins by providing context on the platform under study and unveiling a recent growing demand for crowd-sourced data work. It also examines how firms ensure tasks’ execution quality through worker selection, wage setting, and monitoring. A regression framework allows for the identification of specific factors that distinguish demand for data work from other tasks. The higher targeting of demand towards predefined groups of contributors based on experience or geographic location, along with a larger rejection probability for data annotation tasks, underscores the importance of quality execution for firms outsourcing in this domain.
-
 * "Can Platform Integration Mitigate Discovery Loss in the Digital Consumption Funnel?", with Denzel Glandel (LMU Munich) and Tobias Kretschmer (LMU Munich).
   * Draft available soon.
 
 * "Replaceables? Profile Restarting on Digital Platforms. Evidence from the Short-Term Rental Market", with Joerg Claussen (LMU Munich) and Michail Batikas (NOVA Lisbon).
   * Draft available soon.
 
-Research Projects
------
 * "Picky Drivers: Reputation and Selectivity on a Car-Pooling Platform", with Dianzhuo Zhu (University of Lille).
+  * Draft available soon.
 
 
 Policy Reports and Other Publications
