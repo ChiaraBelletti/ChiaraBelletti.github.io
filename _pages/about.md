@@ -12,7 +12,7 @@ Welcome to my webpage!
 
 I am a Postdoctoral Researcher at the <a href="https://chairgovreg.fondation-dauphine.fr/">Governance and Regulation Chair</a> at the Université Paris Dauphine-PSL. 
 
-My research focuses on the empirical analysis of digital platforms. I am particularly interested in user behavior in two-sided markets and the impact of platform governance measures. I also do research on platform-mediated labor and crowd-sourced data work.
+My research focuses on the empirical analysis of digital platforms. I am particularly interested in user behavior in two-sided markets, rating systems and the impact of platform governance measures. I also do research on platform-mediated labor and the quality of crowd-sourced data annotation.
 
 Industries I study include online labor markets, short-term rentals, car-pooling and music streaming.
 
