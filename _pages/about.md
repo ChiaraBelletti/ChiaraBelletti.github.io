@@ -19,7 +19,7 @@ Examples of industries I enjoy studying include online travel agencies (OTAs) an
 Contacts
 ------
 
-Institutional Email: <a href="mailto:">chiara.belletti@dauphine.psl.eu</a>.
+Institutional Email: <a href="mailto:">chiara.belletti@edhec.edu</a>.
 
 Personal Email: <a href="mailto:">chiara.belletti.ts@gmail.com</a>.
 
