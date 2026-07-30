@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Complete CV availble <a href="https://www.dropbox.com/scl/fi/7618se88oxejgxa6zkw0l/CV_Belletti_Feb2026.pdf?rlkey=av16fh3g4b061si5blcif86zl&dl=0">here</a>.
+Complete CV availble <a href="https://www.dropbox.com/scl/fi/59j9cmwj5fdlewpl09pik/Belletti_CV.pdf?rlkey=gy7runwesz6ij5u0ciy6emv5c&st=jqnnhp88&dl=0">here</a>.
 
 
 
