@@ -10,13 +10,11 @@ redirect_from:
 
 Welcome to my webpage!
 
-I am a Postdoctoral Researcher at the <a href="https://chairgovreg.fondation-dauphine.fr/">Governance and Regulation Chair</a> at the Université Paris Dauphine-PSL. 
+I am a Postdoctoral Researcher at the <a href="https://chairgovreg.fondation-dauphine.fr/">Governance and Regulation Chair</a> at Université Paris Dauphine-PSL. From September, I will join EDHEC Business School as Assistant Professor of Marketing.
 
-My research focuses on the empirical analysis of digital platforms. I am particularly interested in user behavior in two-sided markets, rating systems and the impact of platform governance measures. I also do research on platform-mediated labor and the quality of crowd-sourced data annotation.
+I do research sits at the intersection of quantitative marketing, digital economics and economics of information systems. My work uses secondary and experimental data to study user behavior in digital markets. I am particularly interested in the dynamics of reputation and rating systems, incentive design, and consumer choice, and in how platforms shape these dimensions.
 
-Industries I study include online labor markets, short-term rentals, car-pooling and music streaming.
-
-From January 2025, I am the Scientific Coordinator for the Governance and Regulation Chair's research project BlablaModes (in collaboration with BlaBlaCar and supported by the French Agency for Ecological Transition).
+Examples of industries I enjoy studying include online travel agencies (OTAs) and short-term rentals, ride- and car-sharing, and other platform-mediated labor markets.
 
 Contacts
 ------
