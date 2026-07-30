@@ -23,5 +23,5 @@ Institutional Email: <a href="mailto:">chiara.belletti@edhec.edu</a>.
 
 Personal Email: <a href="mailto:">chiara.belletti.ts@gmail.com</a>.
 
-Address: Pl. du Maréchal de Lattre de Tassigny, 75016 Paris.
+Address: 24 avenue Gustave Delory, 59057 Roubaix Cedex 1.
 
