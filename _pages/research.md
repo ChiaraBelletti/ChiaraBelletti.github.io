@@ -11,7 +11,7 @@ redirect_from:
 
 Research interests
 ----- 
-Applied Economics, Business Ecoconomics, Digital Economics, Digital Marketing, Economics of Information Systems, Industrial Organization, Platform Strategy, Quantitative Marketing.
+Digital Marketing, Applied Economics, Digital Economics, Economics of Information Systems, Industrial Organization, Platform Strategy.
 
 Working Papers
 ----- 
